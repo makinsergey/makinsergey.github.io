@@ -25,20 +25,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face {
-	font-family: "RobotoBold";
-	src: url("../fonts/RobotoBold/RobotoBold.eot");
-	src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
-	url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-
-header,
-nav{
-	display: block;
-}
 .header-container{
 	width: 920px;
 	margin: 0 auto;
@@ -63,14 +49,14 @@ nav{
 }
 .nav-list li{
 	float: left;
-	border-top: 1px solid #494d4e;
+	border-top: 2px solid #494d4e;
 	border-left: 1px solid #494d4e;
 	padding: 6px 0 6px 0;
 	border-bottom: 3px solid #3a3e40;
 	border-right: 1px solid #323738;
 }
 .nav-whos:hover{
-	border-top: 1px solid #f26c4f;
+	border-top: 2px solid #f26c4f;
 	background-color: #35393a;
 }
 .nav-type:hover{
@@ -327,6 +313,7 @@ label[for="Safari2"]:hover{
 	text-align: center;
 	color: #747474;
 }
+/*check block*/
 .check-wrapper{
 	overflow: hidden;
 }
