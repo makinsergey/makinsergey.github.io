@@ -17,6 +17,9 @@
 	background-size: cover;
 	margin-bottom: 0px;
 }
+.tisn-navbar{
+	background: #fff url() 0 0 no-repeat;
+}
 .navbar-nav {
     float: right;
 }
@@ -322,6 +325,7 @@ background: linear-gradient(to bottom, rgb(245,245,243) 0%,rgb(244,243,241) 8%,r
 .footer{
 	background-color: #e8e7e3;
 	padding: 20px 0 40px 0;
+	border-top: 1px solid #dbdbdb;
 }
 .footer-list-title{
 	text-transform: uppercase;
@@ -352,8 +356,7 @@ a.footer-link:hover{
 	color: #707070;
 	text-align: center;
 }
-/*===========*/
-/* standalone - .bttn-stretch */
+/* Анимация кнопок навигации*/
 .bttn-stretch {
   -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
   transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
@@ -383,8 +386,73 @@ a.footer-link:hover{
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
+
 .navbar-default .navbar-toggle {
     border-color: #f7c920;
+}
+/*service->tisnenie styles*/
+
+.service-tisnenie{
+	background-color: #f2f2f2;
+}
+.tisnenie-title{
+	text-transform: uppercase;
+	font: 300 2.571em "Circe",sans-serif;
+	color: #000;
+	margin: 30px 0;
+}
+.tisnenie-about{
+	padding: 60px 0 100px 0;
+}
+.tisnenie-about-text{
+	margin: 0 0 20px 0;
+}
+.tisnenie-order-btn{
+	margin-top: 24px;
+}
+.tisnenie-img-wrp{
+	background-color: #ecebe7;
+  	max-width: 367px;
+  	float: right;
+}
+.tisnenie-img-wrp img{
+	width: 100%;
+}
+.tisnenie-technology{
+	padding-top: 110px;
+}
+.tisn-tech-img-wrp{
+	max-width: 408px;
+}
+.tisnenie-list-title{
+	margin: 0 0 20px 0;
+}
+.tisnenie-about-list li{
+    background: url(../img/list-icon.png) 0px 10px no-repeat;
+}
+.tisnenie-about-list li:nth-child(2) {
+    background-position: 0px 10px;
+}
+.tisnenie-technology-text{
+	font: 200 1.286em "Circe",sans-serif;	
+	color: #000;
+	line-height: 1.2;
+	margin-top: 20px;
+}
+.tisnenie-about-list .list-desc{
+	font: 200 1.2em "Circe",sans-serif;	
+	color: #000;
+	line-height: 1.2;
+}
+.tisnenie-technology .padding-fix{
+	padding-left: 0;
+}
+.tisnenie-line{
+	background-color: #ebebeb;
+	margin-bottom: 60px;
+}
+.tisnenie-formblock{
+	padding-bottom: 60px;
 }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px){
