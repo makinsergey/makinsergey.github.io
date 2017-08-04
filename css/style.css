@@ -1,4 +1,5 @@
 @import "fonts.css";
+@import "../libs/fotorama/fotorama.dev.css";
 .header,
 .about,
 .gold,
@@ -424,6 +425,9 @@ a.footer-link:hover{
 .tisn-tech-img-wrp{
 	max-width: 408px;
 }
+.tisn-tech-img-wrp img{
+	width: 100%;
+}
 .tisnenie-list-title{
 	margin: 0 0 20px 0;
 }
@@ -444,7 +448,7 @@ a.footer-link:hover{
 	color: #000;
 	line-height: 1.2;
 }
-.tisnenie-technology .padding-fix{
+.tisnenie-technology>.padding-fix{
 	padding-left: 0;
 }
 .tisnenie-line{
@@ -454,6 +458,61 @@ a.footer-link:hover{
 .tisnenie-formblock{
 	padding-bottom: 60px;
 }
+/*cifrovaya pechat styles*/
+.pechat-about{
+	padding: 65px 0 20px 0;
+}
+.pechat-order-btn{
+	width: 190px;
+}
+.pechat-list-title{
+	text-align: center;
+}
+.pechat-list-first li:nth-child(1){
+	background: #fff url(../img/cifrovaya_pechat-icons.png) 0 13px no-repeat;
+}
+.pechat-list-first li:nth-child(2){
+	background: #fff url(../img/cifrovaya_pechat-icons.png) 0 -86px no-repeat;
+}
+.pechat-list-first li:nth-child(3){
+	background: #fff url(../img/cifrovaya_pechat-icons.png) 0 -183px no-repeat;
+}
+.pechat-list-first li:nth-child(4){
+	background: #fff url(../img/cifrovaya_pechat-icons.png) 0 -275px no-repeat;
+}
+.pechat-list-second li:nth-child(1){
+	background: #fff url(../img/cifrovaya_pechat-icons.png) 0 -367px no-repeat;
+}
+.pechat-list-second li:nth-child(2){
+	background: #fff url(../img/cifrovaya_pechat-icons.png) 0 -470px no-repeat;
+}
+.pechat-list-second li:nth-child(3){
+	background: #fff url(../img/cifrovaya_pechat-icons.png) 0 -560px no-repeat;
+}
+.pechat-list-second li:nth-child(4){
+	background: #fff url(../img/cifrovaya_pechat-icons.png) 0 -662px no-repeat;
+}
+.pechat-list li{
+	padding-bottom: 10px;
+}
+.pechat-list .list-desc{
+	font: 200 1.286em "Circe",sans-serif;	
+	color: #000;
+	line-height: 1.2;
+}
+.pechat-pluses{
+	list-style-type: none;
+	font: 200 1.286em "Circe",sans-serif;	
+	color: #000;
+	line-height: 1.2;
+	margin-top: 10px;
+}
+/*gallery*/
+
+.gallery {
+	padding: 50px 0;
+}
+
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px){
 	.navbar-default .navbar-nav>li>a {
@@ -490,6 +549,12 @@ a.footer-link:hover{
 	}
 	.footer-link {
 		font-size: 1.1em;
+	}
+	.tisnenie-list-title{
+		margin-top: 0;
+	}
+	.tisn-tech-img-wrp{
+		margin-top: 35px;
 	}
 }
 /* Portrait tablets and small desktops */
@@ -557,6 +622,9 @@ a.footer-link:hover{
 	}
 	.logo-text {
 		font-size: 1.3em;
+	}
+	.tisnenie-technology>.padding-fix{
+		padding-left: 15px;
 	}
 }
 /* Landscape phones and portrait tablets */
@@ -627,6 +695,22 @@ a.footer-link:hover{
 	.formblock-content .block-title {
 		margin-top: 55px;
 	}
+	.tisnenie-technology>.padding-fix{
+		padding-left: 15px;
+	}
+	.tisnenie-technology-text{
+		padding-left: 30px;
+	}
+	.tisnenie-technology {
+	    padding-top: 40px;
+	}
+	.tisnenie-about {
+	    padding: 60px 0px 40px;
+	}
+	.formblock-content .block-title {
+	    margin-top: 0px;
+	}
+	
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px){
