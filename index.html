@@ -17,7 +17,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="css/style.css" rel="stylesheet">
-
   </head>
   <body>
   <!-- Navigation block -->
@@ -42,16 +41,12 @@
             <ul class="dropdown-menu">
               <li><a href="https://makinsergey.github.io/service/tisnenie/">Тиснение</a></li>
               <li><a href="https://makinsergey.github.io/service/cifrovaya_pechat/">Цифровая печать</a></li>
-              <li><a href="#">Что-то еще</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Отдельная ссылка</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Еще одна отдельная ссылка</a></li>
+              <li><a href="https://makinsergey.github.io/service/exclusive/">Эксклюзивные ежедневники</a></li>
             </ul>
           </li>
             <li><a href="#" class="bttn-stretch">прайс-лист</a></li>
-            <li><a href="https://makinsergey.github.io/test/" class="bttn-stretch">наши работы</a></li>
-            <li><a href="#" class="bttn-stretch">контакты</a></li>
+            <li><a href="https://makinsergey.github.io/portfolio/" class="bttn-stretch">наши работы</a></li>
+            <li><a href="https://makinsergey.github.io/contacts/" class="bttn-stretch">контакты</a></li>
           </ul>
         </div>
       </div>
@@ -65,7 +60,7 @@
         <hr class="header-line">
         <div class="clearfix"></div>
         <p class="header-text">Золочение ежедневников, книг, <br>визиток, приглашений</p>
-        <button type="button" class="order-btn">Заказать золочение</button>
+        <button type="button" class="order-btn" data-toggle="modal" data-target="#myModal">Заказать золочение</button>
         <p class="order-desc">Закажите золочение и мы свяжемся <br>с вами в течении 30 секунд!</p>
       </div>
     </div>
@@ -260,6 +255,33 @@
       </div>
     </div>
   </div>
+  <!-- Modal Form-->
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h1 class="modal-form-caption">Оставить заявку</h1>
+            <!-- Form itself -->
+            <form name="sentMessage" class="form form-register1" id="contactForm">
+              <div class="control-group">
+                <div class="controls">
+                  <input type="text" class="form-control" placeholder="Имя" id="name" required/>
+                    <p class="help-block"></p>
+                </div>
+              </div>  
+              <div class="control-group">
+                <div class="controls">
+                  <input type="tel" class="form-control" placeholder="Телефон" id="phone" required/>
+                </div>
+              </div>  
+              <button type="button" class="order-btn">Отправить заявку</button>
+              <div id="success"></div> <!-- For success/fail messages -->
+            </form>
+          </div><!-- End of Modal body -->
+        </div><!-- End of Modal content -->
+      </div><!-- End of Modal dialog -->
+    </div><!-- End of Modal -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
