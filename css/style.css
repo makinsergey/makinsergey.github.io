@@ -685,6 +685,7 @@ a.footer-link:hover{
 .modal-dialog-gallery {
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
 }
 .modal-content-gallery {
 	height: 100vh;
@@ -714,8 +715,12 @@ a.footer-link:hover{
 	left: 10px;
 	margin-top: 10px;
 }
-.fotorama {
-	overflow: auto;
+.modal {
+	padding: 0 !important;
+}
+.fotorama__arr {
+	background-color: #000;
+	opacity: .5;
 }
 /*fotorama*/
 /*.fotorama__nav-wrap {
