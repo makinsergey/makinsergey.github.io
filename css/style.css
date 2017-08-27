@@ -35,6 +35,10 @@
 .nav>li {
     padding: 0px 25px;
 }
+.navbar-nav li:last-child,
+.navbar-collapse {
+	padding-right: 0;
+}
 .active{
 	border-bottom: 1px solid #f7c920;
 }
@@ -107,7 +111,7 @@
 	margin-right: 18px;
 }
 .order-btn:hover{
-	background-color: #e3b200;
+	
 }
 .order-desc{
 	font: 300 1.214em "Circe",sans-serif;
@@ -467,6 +471,10 @@ a.footer-link:hover{
 }
 .pechat-list-title{
 	text-align: center;
+	margin-top: 110px;
+}
+.pechat-list{
+	margin-bottom: 70px;
 }
 .pechat-list-first li:nth-child(1){
 	background: #fff url(../img/cifrovaya_pechat-icons.png) 0 13px no-repeat;
@@ -507,12 +515,220 @@ a.footer-link:hover{
 	line-height: 1.2;
 	margin-top: 10px;
 }
-/*gallery*/
-
-.gallery {
-	padding: 50px 0;
+/*contacts*/
+.contacts-content {
+	padding-top: 60px;
+}
+.contacts-title {
+	margin-bottom: 0;
+	line-height: 1;
+}
+.contacts-nav-links{
+	padding-left: 18px;
+	color: #797979;
+	font: 300 1.071em "Circe",sans-serif;	
+}
+.contacts-nav-links a {
+	color: #797979;
+	padding-bottom: -4px;
+}
+.contacts-nav-links a:hover {
+	text-decoration: underline;
+	color: #f7c920;
+}
+.contacts-nav-links span {
+	color: #797979;
+}
+.contacts-info-title {
+	color: #272727;
+	font: 400 1.429em "Circe",sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.contacts-info-company{
+	color: #272727;
+	font: 400 1.286em "Circe",sans-serif;	
+	margin-top: 0;
+}
+.contacts-info-text {
+	color: #000;
+	font: 200 1.286em "Circe",sans-serif;	
+	line-height: 1.1;
+}
+.contacts-info{
+	color: #000;
+	font: 200 1.286em "Circe",sans-serif;	
+	line-height: 2;
+	list-style-type: none;
+	padding-left: 65px;
+}
+.contacts-info:nth-child(1) {
+	background: #fff url(../img/contacts-icons.png) 35px 7px no-repeat;
+}
+.contacts-info:nth-child(2) {
+	background: #fff url(../img/contacts-icons.png) 35px -65px no-repeat;
+}
+.contacts-info:nth-child(3) {
+	background: #fff url(../img/contacts-icons.png) 35px -137px no-repeat;
+}
+.contacts-info span{
+	color: #272727;
+	font: 400 1em "Circe",sans-serif;	
 }
 
+.map {
+	padding: 40px 0;
+}
+
+/*эксклюзивные ежедневники*/
+
+.exclusive-title {
+	text-transform: uppercase;
+	color: #272727;
+	font: 400 1.429em "Circe",sans-serif;	
+	margin-top: 0;
+}
+.exclusive-img-wrp {
+	background-color: #fff;
+  	max-width: 421px;
+}
+.exclusive-technology {
+	padding-top: 15px;
+}
+/*portfolio*/
+.portfolio {
+	padding-top: 62px;
+}
+.gallery-group {
+	position: relative;
+	height: 245px;
+	width: 100%;
+	display: block;
+	margin-bottom: 5px;
+}
+.portfolio-business-card {
+	background: #000 url(../img/about-img2.jpg) center center no-repeat;
+	-webkit-background-size: cover; 
+	background-size: cover;
+}
+.portfolio-books {
+	background: #000 url(../img/portfolio-books.jpg) center center no-repeat;
+	-webkit-background-size: cover; 
+	background-size: cover;
+}
+.portfolio-cards {
+	background: #000 url(../img/portfolio-card.jpg) center center no-repeat;
+	-webkit-background-size: cover; 
+	background-size: cover;
+}
+.portfolio-catalogs {
+	background: #000 url(../img/portfolio-catalogs.jpg) center center no-repeat;
+	-webkit-background-size: cover; 
+	background-size: cover;
+}
+.portfolio-invites {
+	background: #000 url(../img/portfolio-invites.jpg) center center no-repeat;
+	-webkit-background-size: cover; 
+	background-size: cover;
+}
+.portfolio-menu {
+	background: #000 url(../img/portfolio-menu.jpg) center center no-repeat;
+	-webkit-background-size: cover; 
+	background-size: cover;
+}
+.portfolio-folders {
+	background: #000 url(../img/portfolio-folders.jpg) center center no-repeat;
+	-webkit-background-size: cover; 
+	background-size: cover;
+}
+.portfolio-cert {
+	background: #000 url(../img/portfolio-cert.jpg) center center no-repeat;
+	-webkit-background-size: cover; 
+	background-size: cover;
+}
+.dark-block {
+	background-color: #000;
+	width: 100%;
+	position: absolute;
+	z-index: 22;
+	height: 100%;
+	opacity: 0.5;
+}
+.gallery-group:hover .dark-block{
+	opacity: 0.7;
+}
+.gallery-group-title,
+.gallery-group-text {
+	position: absolute;
+	z-index: 24;
+	color: #fff;
+	left: 23px;
+}
+.gallery-group-title {
+	text-transform: uppercase;
+	font: 400 1.429em "Circe",sans-serif;
+	top: 14px;
+}
+.gallery-group-text {
+	font: 200 1.071em "Circe",sans-serif;
+	bottom: 25px;
+}
+/*modal form*/
+.modal-body-gallery,
+.modal-portfolio-business-card {
+	padding: 0;
+	
+}
+.modal-portfolio-business-card .modal-content {
+    margin-top: 0px;
+}
+.modal-dialog-gallery {
+	width: 100%;
+	margin: 0;
+}
+.modal-content-gallery {
+	height: 100vh;
+}
+.gallery-dark-upper {
+	position: absolute;
+	background-color: #000;
+	opacity: 0.5;
+	height: 50px;
+	z-index: 20;
+	width: 100%;
+}
+.close-gallery {
+	position: absolute;
+	z-index: 22;
+	color: #fff;
+	right: 10px;
+	font-size: 45px;
+	text-shadow: 0 0px 0 #fff;
+	opacity: 1;
+}
+.gallery-title {
+	font: 400 1.4em "Circe",sans-serif;
+	color: #fff;
+	z-index: 22;
+	position: absolute;
+	left: 10px;
+	margin-top: 10px;
+}
+.fotorama {
+	overflow: auto;
+}
+/*fotorama*/
+/*.fotorama__nav-wrap {
+	z-index: 24;
+	background-color: #fff;
+}
+.fotorama__nav__shaft {
+	opacity: 1;
+	z-index: 65;
+}*/
+.fotorama__thumb-border {
+    border-color: rgb(247, 201, 32);
+}
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px){
 	.navbar-default .navbar-nav>li>a {
@@ -555,6 +771,9 @@ a.footer-link:hover{
 	}
 	.tisn-tech-img-wrp{
 		margin-top: 35px;
+	}
+	.pechat-list-title{
+		margin-top: 110px;
 	}
 }
 /* Portrait tablets and small desktops */
@@ -625,6 +844,43 @@ a.footer-link:hover{
 	}
 	.tisnenie-technology>.padding-fix{
 		padding-left: 15px;
+	}
+	.tisnenie-about {
+	    padding: 60px 0 60px 0;
+	}
+	.pechat-list .list-text {
+		font-size: 1.2em;
+	}
+	.pechat-list .list-desc {
+		font-size: 1em;
+	}
+	.pechat-list-title{
+		margin-top: 70px;
+	}
+	.pechat-list{
+		margin-bottom: 50px;
+	}
+	.contacts-info-text {
+		font-size: 1em;	
+	}
+	.contacts-info{
+		font-size: 1em;	
+		padding-left: 25px;
+	}
+	.contacts-info:nth-child(1) {
+		background-position: 0 7px;	
+	}
+	.contacts-info:nth-child(2) {
+		background-position: 0 -67px;
+	}
+	.contacts-info:nth-child(3) {
+		background-position: 0 -140px;
+	}
+	.contacts-info span{
+		font-size: 1em;	
+	}
+	.contacts-info-wrp {
+		padding-left: 0;
 	}
 }
 /* Landscape phones and portrait tablets */
@@ -710,7 +966,48 @@ a.footer-link:hover{
 	.formblock-content .block-title {
 	    margin-top: 0px;
 	}
-	
+	.pechat-list,
+	.about-list li:nth-child(4) {
+		margin-bottom: 0px;
+	}
+	.pechat-pluses {
+		padding-left: 30px;
+	}
+	.contacts-info-wrp {
+		padding-left: 0;
+	}
+	.contacts-info{
+		padding-left: 25px;
+		font-size: 1em;	
+	}
+	.contacts-info:nth-child(1) {
+		background-position: 0 7px;	
+	}
+	.contacts-info:nth-child(2) {
+		background-position: 0 -67px;
+	}
+	.contacts-info:nth-child(3) {
+		background-position: 0 -140px;
+	}
+	.contacts-info span{
+		font-size: 1em;	
+	}
+	.bttn-stretch:before {
+	  	height: 0px;
+	}
+	.navbar-default .navbar-nav>li>a:hover, 
+	.navbar-default .navbar-nav>li>a:focus {
+		background-color: #cccbc8;
+	}
+	.active {
+	    border-bottom: none;
+	    background-color: #cccbc8;
+	    opacity: 0.8;
+	}
+	.nav>li>a {
+	    padding: 2px 0 0 0;
+	}
+
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px){
@@ -754,10 +1051,19 @@ a.footer-link:hover{
 	.block-title {
 	    font-size: 1.1em;
 	}
-	.gold-type-text {
+	.gold-type-text,
+	.pechat-list .list-desc,
+	.pechat-pluses,
+	.tisnenie-technology-text {
 	    font-size: 1em;
 	}
 	.copyright-text {
 		font-size: 0.8em;
+	}
+	.pechat-list-title {
+	    margin-top: 40px;
+	}
+	.exclusive-everyday {
+		font-size: 2.1em;
 	}
 }
