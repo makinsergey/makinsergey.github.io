@@ -722,6 +722,12 @@ a.footer-link:hover{
 	background-color: #000;
 	opacity: .5;
 }
+.pr-fix {
+	padding-right: 2.5px;
+}
+.pl-fix {
+	padding-left: 2.5px;
+}
 /*fotorama*/
 /*.fotorama__nav-wrap {
 	z-index: 24;
@@ -1012,7 +1018,12 @@ a.footer-link:hover{
 	.nav>li>a {
 	    padding: 2px 0 0 0;
 	}
-
+	.pr-fix {
+		padding-right: 15px;
+	}
+	.pl-fix {
+		padding-left: 15px;
+	}
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px){
