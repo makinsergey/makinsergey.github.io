@@ -10,7 +10,7 @@ function submitForm(){
     var phone = $("#phone").val();
     $.ajax({
         type: "POST",
-        url: "process_form.php",
+        url: "../process_form.php",
         data: "name="+ name + "&phone="+ phone,
         // success : function(text){
         //     if(text == "success"){
