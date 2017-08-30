@@ -1,17 +1,17 @@
 <?php
-$name2= $_POST["name2"];
-$phone2= $_POST["phone2"];
+$name= $_POST["name"];
+$phone= $_POST["phone"];
  
-$EmailTo= "mr.moiseev@bk.ru";
+$EmailTo= "nyanvodka@yandex.ru";
 $Subject= "Получено новое сообщение";
 // Подготовка шапки сообщения
 $Body = "Вам отправлена заявка по ЛР на прохождение теста: \n\n".
 $Body.= "Имя: ";
-$Body.= $name2;
+$Body.= $name;
 $Body.= "\n";
  
 $Body.= "Номер телефона: ";
-$Body.= $phone2;
+$Body.= $phone;
 $Body.= "\n";
  
 // посылаем сообщение
