@@ -23,7 +23,7 @@ $(function() {
          }        
 $.ajax({
                 url: "recall_me.php",
-             type: "POST",
+             // type: "POST",
              data: {name: name, phone: phone},
              cache: false,
              success: function() {  
@@ -36,13 +36,13 @@ $.ajax({
     $('#success > .alert-success')
   .append('</div>');
 
-   
+ /*  
     //clear all fields
     $('#contactForm').trigger("reset");
 
 setTimeout(function() {
                 $("#myModal").modal('hide');
-           }, 2000);
+           }, 2000);*/
 
         },
      error: function() { 
