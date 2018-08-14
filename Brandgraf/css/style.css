@@ -584,10 +584,12 @@ html {
     position: relative;
 }
 .design-block-middle {
+	width: 390px;
+}
+.design-wrp-for-lines {
 	border-left: 1px solid #9DCD4C;
 	border-right: 1px solid #9DCD4C;
 	padding: 0 10px 0 10px;
-	width: 390px;
 }
 .design-send-btn {
 	position: absolute;
