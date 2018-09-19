@@ -11,12 +11,12 @@
 	var number;
 
 	for(var i = 0; i < 10; i++) {
-		number = +prompt("Введите число");
+		number = prompt("Введите число");
 
 		if( !isNaN(parseFloat(number)) && isFinite(number) ) {
 			arr.push(number);
 		} else {
-			number = +prompt("Вы ввели не число! Введите число");
+			number = prompt("Вы ввели не число! Введите число");
 			i--;
 		}
 	}
