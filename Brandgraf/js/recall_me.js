@@ -56,7 +56,7 @@ setTimeout(function() {
              $('#success > .alert-danger').append("<strong>Извините "+firstName+" кажется проблемы на сервере отправки писем...</strong> Вы не могли бы написать напрямую на адрес <a href='arina1611@mail.ru?Subject=Перезвоните мне'>arina1611@mail.ru</a> ? Приносим извинения за это неудобство!");
           $('#success > .alert-danger').append('</div>');
   //clear all fields
-  $('#contactForm').trigger("reset");
+  $('#contactForm2').trigger("reset");
       },
            })
     

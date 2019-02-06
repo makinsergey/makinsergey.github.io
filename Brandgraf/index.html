@@ -1,638 +1,620 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Brandgraff</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Brandgraf</title>
   </head>
   <body>
-    <nav class="container-fluid navigation-wrp navbar-fixed-top">
-      <div class="container container-nav">
-	      <div class="row">
-	        <div class="navbar col-lg-12 col-md-12 col-sm-12 col-xs-12 navigation">
-            	<a href="index.html"><img src="img/logo.png" alt="Brandgraf Logo" class="nav-logo-img"></a>
-		        <div class="navbar-header">
-		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-		            <span class="sr-only">Меню навигации</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span> 
-		          </button>
-		        </div>         
-		        <div class="collapse navbar-collapse" id="menu">
-		          <ul class="nav navbar-nav" id="nav-links">
-		            <li><a class="main-link" href="#">Главная</a></li>
-		            <li><a href="#polygraphic">Полиграфия</a></li>
-		            <li><a href="#print">Широкоформатная <br> печать</a></li>
-		            <li><a href="#uv">Уф-печать</a></li>
-		            <li><a href="#souvenirs">Сувенирная <br>продукция</a></li>
-		            <li><a href="#design">дизайн</a></li>
-		            <li><a href="#contacts">Контакты</a></li>
-		          </ul>
-              <div class="phone-wrap">
-                <p class="tel-nav">+7 (495) 960-32-99</p>
-                <button type="button" class="btn send-btn-nav" data-toggle="modal" data-target="#myModal">Отправить запрос</button> 
-              </div>
-		        </div>  
-	        </div>
-	      </div> 
-      </div>    
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-fill flex-grow-1 justify-content-md-between">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#polygraphic">Полиграфия</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#print">Широкоформатная<br>печать</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#uv">УФ-печать</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#souvenirs">Сувенирная<br>продукция</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#design">дизайн</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">контакты</a>
+            </li>
+            <li class="nav-item">
+              <p class="tel mb-0">+7 (495) 960-32-99</p>
+              <button class="nav-btn btn" type="button" data-toggle="modal" data-target="#myModal2">Отправить запрос</button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <main class="container-fluid ">
-      <div class="container main-block">
-        <div class="main-wrp">
+    <section class="container-fluid">
+      <div class="container firstBg">
+        <div class="row pt-4">
+          <img src="img/main-logo.png" alt="BrandGraf" class="logo d-block offset-md-1">
+          <div class="ml-auto d-flex flex-column pr-3">
+            <p class="phone mb-0">+7 (495) 274-06-17</p>
+            <p class="phone mb-1">+7 (985) 274-06-17</p>
+            <button class="btn main-btn ml-auto" data-toggle="modal" data-target="#myModal2">Отправить запрос</button>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between mt-md-3 mt-0">
+          <img src="img/about.png" alt="" class="img-about d-md-inline d-none">
+          <img src="img/banner.png" alt="" class="img-banner d-md-inline d-none">
+          <div class="socials d-flex flex-row">
+            <a href="https://www.facebook.com/brandgraf.ru/" class="social-fb"></a>
+            <a href="https://www.instagram.com/_brandgraf_/" class="social-in"></a>
+            <a href="https://vk.com/brand_graf" class="social-vk"></a>
+          </div>
+        </div>
+        <div class="row mt-md-4 mt-1 services-wrapper align-items-center">
+          <div class="col-4 pl-4">
+            <a href="#print" onmousemove="showCircl(this)" onmouseout="hideCircl(this)">
+              <img src="img/print.png" class="services services-nonehover img-fluid rounded-circle" alt="">
+              <img src="img/print-hover.png" class="services services-hover img-fluid rounded-circle" alt="">
+            </a>
+          </div>
+          <div class="col-4 pl-4">
+            <a href="#polygraphic" onmousemove="showCircl(this)" onmouseout="hideCircl(this)">
+              <img src="img/poly.png" class="services services-nonehover img-fluid rounded-circle" alt="">
+              <img src="img/poly-hover.png" class="services services-hover img-fluid rounded-circle" alt="">
+            </a>
+          </div>
+          <div class="col-4 pl-4">
+            <a href="#design" onmousemove="showCircl(this)" onmouseout="hideCircl(this)">
+              <img src="img/design.png" class="services services-nonehover img-fluid rounded-circle" alt="">
+              <img src="img/design-hover.png" class="services services-hover img-fluid rounded-circle" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="row pt-sm-3 pb-sm-4 p-0">
+          <div class="arrow-wrapper m-auto">
+            <a><img src="img/up-down-arrow.png" alt="" class="arrow"></a> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid white-logo-block">
+      <div class="white-logo">
+        <div id="polygraphic"></div>
+      </div>
+    </section>
+    <section>
+      <h1 class="main-header mt-4">полиграфия</h1>
+      <div class="container-fluid">
+        <div class="container main-wrapper polygraphy">
+            <div class="d-flex justify-content-start">
+              <h2 class="main-content-title mt-5">Цифровая печать</h2>
+            </div>
+            <div class="main-content-wrapper">
+              <p class="main-content-text"><b>Цифровая печать</b> в наше время признается наиболее эффективной и современной технологией в полиграфии. Она имеет ряд важнейших плюсов, которые делают её столь популярной среди потребителей. Это один из лучших способов <b>сделать качественную рекламу</b>, при этом выгодно и громко заявить о себе на рынке.</p>
+              <p class="main-content-text">Наши специалисты прелагают Вам быструю и качественную цифровую печать с применением самых современных и эффективных технологий, что даст <b>возможность воплотить в реальность</b> любой, даже самый сложный проект.</p>
+              <p class="main-content-text">Если Вашим решением станет цифровая печать в нашей типографии, то Вы получите качественное обслуживание, максимальную оперативность в работе, самые современные технологии и эффективную рекламу, которая станет лучшим решением для Вас и вашего бизнеса, и позволит Вам <b>добиться успеха</b> в максимально короткие сроки.</p>
+              <div class="justify-content-around d-sm-flex block-icons">
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle bc"></div>
+                  <p>визитки</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle brochures"></div>
+                  <p>брошюры</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle calendars"></div>
+                  <p>календари</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle booklets"></div>
+                  <p>буклеты</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle envelopes"></div>
+                  <p>конверты</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle leaflets"></div>
+                  <p>листовки</p>
+                </div>
+              </div>
+              <div class="justify-content-around d-sm-flex block-icons">
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle"></div>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle posters"></div>
+                  <p>плакаты</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle notebooks"></div>
+                  <p>блокноты</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle stickers"></div>
+                  <p>наклейки</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle invitations"></div>
+                  <p>приглашения</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row main-footer">
+              <button class="btn content-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+            </div>  
+          <hr class="content-line">
+            <div class="d-flex justify-content-end">
+              <h2 class="main-content-title">Офсетная печать</h2>
+            </div>
+            <div class="main-content-wrapper">
+              <p class="main-content-text"><b>Офсетная печать</b> - наиболее востребованная услуга из типографических. Самый качественный способ печати. Он передаёт все оттенки полутона красок, чётко пропечатывает едва заметные линии. Это <b>лучший из существующих</b> способов изготовления полиграфической продукции.</p>
+              <p class="main-content-text"><b>Офсетная печать</b> - это <b>находка для заказчиков</b>, для которых передача цвета превыше всего. Разнообразие цветов и возможность печатать различные оттенки - главное положительное отличие от других способов полиграфической печати. Помимо ярких оттенков, офсет даёт возможность печатать и <b>металлизированные оттенки</b> (золотистый, серебристый и бронзовый). Подготовка к печати - процесс не минутный, но после скорость печати - до пятнадцати тысяч копий за 1 час.</p>
+              <div class="justify-content-around d-sm-flex block-icons">
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle bc"></div>
+                  <p>визитки</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle brochures"></div>
+                  <p>брошюры</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle calendars"></div>
+                  <p>календари</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle booklets"></div>
+                  <p>буклеты</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle envelopes"></div>
+                  <p>конверты</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle leaflets"></div>
+                  <p>листовки</p>
+                </div>
+              </div>
+              <div class="justify-content-around d-sm-flex block-icons">
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle magazines"></div>
+                  <p>журналы</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle posters"></div>
+                  <p>плакаты</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle notebooks"></div>
+                  <p>блокноты</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle stickers"></div>
+                  <p>наклейки</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle packages"></div>
+                  <p>пакеты</p>
+                </div>
+                <div class="icon-wrp main-icon-wrp">
+                  <div class="main-icon rounded-circle folders"></div>
+                  <p>папки</p>
+                </div>
+              </div>
+            </div>
+            <div class="row main-footer">
+              <button class="btn content-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+              <div id="print"></div>
+            </div>  
+        </div>
+      </div>
+    </section>
+    <div id="print"></div>
+    <section>
+      <h1 class="main-header mt-5">Широкоформатная печать</h1>
+      <div class="container-fluid">
+        <div class="container main-wrapper large-print">
+          <div class="main-content-wrapper">
+            <div>
+              <p class="main-content-text">Для получения ярких, четких изображений большого размера используется <b>широкоформатная печать.</b> Сфера её применения - изготовление <b>баннеров, плакатов, растяжен, световых коробов, объемных букв.</b> Метод часто используется, если рекламная конструкция будет устанавливаться в местах со сложными климатическими условиями: под интенсивными лучами солнца, порывами ветра, дождем, снегом. Полученная в результате рекламной широкоформатной печати продукция не теряет внешний вид даже под градом.</p>
+              <p class="main-content-text">Одно из главных достоинств этой техники - высокое разрешение изображений. Благодаря этому конструкции можно использовать внутри и снаружи помещений. Изображенные элементы будут хорошо видны с большого расстояния. Услуги широкоформатной печати востребованы для оформления <b>выставок, офисов, квартир, стендов, торговых залов, транспортных средств.</b></p>
+              <p class="main-content-text">В качестве основы используются рулонные и листовые материалы. Возможна <b>печать на бумаге, ткани, пленке, сетке. Широкоформатная печать</b> подходит для создания <b>крупных изображений - баннеров, плакатов</b> и другой продукции.</p>
+            </div>
+            <div class="justify-content-around d-sm-flex large-print-icons">
+              <div class="icon-wrp large-print-icon-wrp">
+                <div class="large-print-icon rounded-circle banners-and-stretchers"></div>
+                <p>БАННЕРЫ И РАСТЯЖКИ</p>
+              </div>
+              <div class="icon-wrp large-print-icon-wrp">
+                <div class="large-print-icon rounded-circle print-on-mesh"></div>
+                <p>ПЕЧАТЬ НА СЕТКЕ</p>
+              </div>
+              <div class="icon-wrp large-print-icon-wrp">
+                <div class="large-print-icon rounded-circle film-printing"></div>
+                <p>ПЕЧАТЬ НА ПЛЕНКЕ</p>
+              </div>
+            </div>
+            <div class="row main-footer">
+              <button class="btn content-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+            </div> 
+          </div>
+          <hr class="content-line">
+          <div class="d-flex justify-content-end">
+            <h2 class="main-content-title">Интерьерная печать</h2>
+          </div>
+          <div class="main-content-wrapper">
+            <p class="main-content-text"><b>Интерьерная печать</b> – характеризуется высоким разрешением и точностью цветопередачи, что позволяет получать практически <b>фотографическое изображение.</b></p>
+            <p class="main-content-text">Интерьерная печать применяется <b>для оформления</b> помещений, выставочных экспозиций, мест продажи внутри игровых комплексов, офисов компаний, а также собственной квартиры.</p>
+            <p class="main-content-text">Использование пигментных чернил на водной основе, и <b>высокое разрешение печати</b> позволяет получать насыщенные изображения, сохраняя при этом тончайшие цветовые оттенки, полутона и переходы. В результате графика приобретает привлекательный красочный вид.</p>
+            <p class="main-content-text"><b>Широкий спектр материалов</b> для интерьерной печати: фотобумага, самоклеящейся и светорассеивающая плёнка (Бэклит), акварельная бумага, художественный холст и шелк <b>поможет вам в реализации</b> ваших творческих замыслов.</p>
+            <div class="justify-content-around d-sm-flex interior-icons">
+              <div class="icon-wrp interior-icon-wrp">
+                <div class="interior-icon rounded-circle interior-fp"></div>
+                <p>ПЕЧАТЬ НА ПЛЕНКЕ</p>
+              </div>
+              <div class="icon-wrp interior-icon-wrp">
+                <div class="interior-icon rounded-circle interior-canvas"></div>
+                <p>ПЕЧАТЬ НА ХОЛСТЕ</p>
+              </div>
+              <div class="icon-wrp interior-icon-wrp">
+                <div class="interior-icon rounded-circle interior-photopaper"></div>
+                <p>ПЕЧАТЬ НА ПОСТЕРНОЙ<br>И ФОТОБУМАГЕ</p>
+              </div>
+              <div class="icon-wrp interior-icon-wrp">
+                <div class="interior-icon rounded-circle interior-plotter"></div>
+                <p>ПЛОТТЕРНАЯ РЕЗКА</p>
+              </div>
+            </div>
+          </div>
+          <div class="row main-footer">
+            <button class="btn content-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+          </div> 
+          <hr class="content-line">
+          <div class="d-flex justify-content-start">
+            <h2 class="main-content-title">Конструкции</h2>
+          </div>
+          <div class="main-content-wrapper d-flex flex-sm-row flex-column">
+            <div class="icon-wrp constructions-icon-wrp">
+              <div class="constructions-icon rounded-circle rollup"></div>
+              <p>Roll Up</p>
+            </div>
+            <div>
+              <p class="main-content-text"><b>Roll Up</b> – мобильные стенды представляют <b>тип переносных</b> рекламных конструкций. <b>Roll Up</b> популярны на выставках, при проведении промоакции, для информации покупателям о скидках, при btl-акциях, а также рекламных компаний.</p>
+              <p class="main-content-text">Легкое использование, срочное изготовление, малая цена, удобства при хранении и транспортировки послужили для роста популярности <b>Roll Up</b> стендов. Конструкция рекламного стенда позволяет просто и <b>быстро развернуть</b> рекламное полотно на выставке, акции, мероприятии.</p>
+            </div>
+          </div>
+          <hr class="content-line another-line">
+          <div class="main-content-wrapper d-flex flex-sm-row flex-column">
+            <div class="icon-wrp constructions-icon-wrp order-sm-2">
+              <div class="constructions-icon rounded-circle press-wall"></div>
+              <p>Press Wall</p>
+            </div>
+            <div>
+              <p class="main-content-text"><b>Press Wall</b> представляет собой конструкцию из каркаса и натянутого на нее баннера. Он служит хорошим заменителем дорогих декораций, <b>с его помощью оформляется</b> фоновое пространство сцены.</p>
+              <p class="main-content-text">Каркас <b>может быть любым</b> -  и металлическим и деревянным. Сегодня популярным стал каркас из хромированной трубы, благодаря внешнему виду такого металлокаркаса, стенд выглядит весьма презентабельно.</p>
+              <p class="main-content-text">Небольшой вес, малые габариты в разобранном состоянии, <b>легкость конструкции</b>, возможность быстрой смены баннера, а также <b>простата монтажа</b> обеспечили устойчивый спрос на баннерные конструкции.</p>
+            </div>
+          </div>
+          <hr class="content-line another-line">
+          <div class="main-content-wrapper d-flex flex-sm-row flex-column">
+            <div class="icon-wrp constructions-icon-wrp">
+              <div class="constructions-icon rounded-circle yxl"></div>
+              <p>Y, L, X - БАННЕРЫ</p>
+            </div>
+            <div>
+              <p class="main-content-text">Главный принцип, заложенный в основу конструкций <b>баннерных стендов – простата.</b> Плакат мобильного стенда натягивается на лёгкую прочную быстрособираемую конструкцию. Как правило, любой <b>баннерный стенд</b> можно собрать за 30 секунд.</p>
+              <p class="main-content-text"><b>Различные модели</b> баннерных мобильных стендов предоставляют клиенту разнообразие выбора конструкций и размеров при традиционно <b>низкой цене.</b> Именно благодаря низкой цене баннерные стенды пользуются устойчивым спросом в тех случаях, когда акция, которую они сопровождают, носит краткосрочный характер и, когда требуется «выглядеть хорошо», потратив на это <b>минимум средств.</b></p>
+            </div>
+          </div>
+          <hr class="content-line another-line">
+          <div class="main-content-wrapper d-flex flex-sm-row flex-column">
+            <div class="icon-wrp constructions-icon-wrp order-sm-2">
+              <div class="constructions-icon rounded-circle popup"></div>
+              <p>Pop Up</p>
+            </div>
+            <div>
+              <p class="main-content-text"><b>Мобильный выставочный стенд Pop Up</b> – это модульный конструктор. Его базовым элементом являются секции, которые можно состыковать друг с другом по ширине и высоте, <b>создавая</b> тем самым различные по форме и размерам композиции.</p>
+              <p class="main-content-text">Стандартный <b>Pop Up</b> – стенд типа «стена». Изменяя размер и форму решетки, можно оформить, практически, любую экспозицию. <b>Pop Up</b> хорошо вписывается в <b>любой дизайн.</b> Стенд позволяет легко и просто менять изображение, его просто собрать-разобрать, удобно транспортировать.</p>
+              <p class="main-content-text">К таким стендам подходит <b>мобильная тумба</b> с фотопанелью, внутри тумбы установлена полка.</p>
+            </div>
+          </div>
+          <hr class="content-line another-line">
+          <div class="main-content-wrapper d-flex flex-sm-row flex-column">
+            <div class="icon-wrp constructions-icon-wrp w-sm-50">
+              <div class="constructions-icon rounded-circle advertising-standers"></div>
+              <p>РЕКЛАМНЫЕ ШТЕНДЕРЫ</p>
+            </div>
+            <div>
+              <p class="main-content-text"><b>Штендер</b> – это рекламная конструкция, но при этом штендер <b>мобилен</b>, что сильно упрощает его размещение. Рекламная площадь может быть расположена с одной или двух сторон.</p>
+              <p class="main-content-text">Штендеры имеют металлическую раму, которую можно покрасить в <b>любой цвет.</b> Рама штендера может быть <b>прямоугольной или арочной</b>, на неё крепят металлическую или пластиковую основу, на которой размещена рекламная информация.</p>
+              <p class="main-content-text"><b>Наша компания предлагает купить</b> штендеры различной формы и всех цветов, а также оперативно изготовит и доставит Вам <b>готовый штендер.</b></p>
+            </div>
+          </div>
           <div class="row">
-            <div class="main-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <img src="img/main-logo.png" alt="Brandgraf Logo" class="main-logo-img">
-              <div class="main-phone-wrp">
-                <p class="main-phone">+7 (495) 274-06-17 <br>
-                +7 (985) 274-06-17</p>
-                <button class="send-btn-main" data-toggle="modal" data-target="#myModal">Отправить запрос</button>
+            <button class="btn content-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+            <div id="uv"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="main-header mt-5">Уф-печать</h1>
+      <div class="container-fluid">
+        <div class="container main-wrapper uv-print">
+          <div class="d-flex justify-content-start">
+            <h2 class="main-content-title mt-5">Ультрафиолетовая печать</h2>
+          </div>
+          <div class="main-content-wrapper">
+            <p class="main-content-text"><b>Ультрафиолетовая печать</b> (UV или УФ печать) – <b>разновидность струйной печати</b> с использованием УФ-отверждаемых чернил, которые застывают (фотополимеризируются) под воздействием ультрафиолетового излучения, образуя толстую пленку на запечатываемом материале.</p>
+            <p class="main-content-text">Впервые струйный УФ принтер появился еще в 2000 году. А наша компания <b>успешно осваивает</b> этот вид печати уже более пяти лет. За это время мы <b>стали истинными поклонниками</b> машин с технологией УФ-печати, у нас есть оборудование для любой задачи!</p>
+            <p class="main-content-text">Это позволяет <b>экономить время</b> на производство продукции, а так же дает <b>возможность воплотить</b> в жизнь намного больше идей!</p>
+          </div>
+          <hr class="content-line another-line">
+          <div class="main-content-wrapper d-flex flex-column flex-sm-row">
+            <div class="icon-wrp uv-icon-wrp pr-sm-5">
+              <div class="uv-icon rounded-circle list-materials"></div>
+              <p>УФ-печать на листовых <br> материалах</p>
+            </div>
+            <div>
+              <p class="main-content-text"><b>Перечень листовых материалов</b>, которые можно использовать <b>для УФ-печати</b> огромен. Это ПВХ, полистирол, акрил, сотовый поликарбонат, пенокартон, гофрокартон, бумага, композитный материал, некоторые металлы (жесть, алюминий) и многое другое.</p>
+              <p class="main-content-text">Такой широкий перечень материалов <b>позволяет применять УФ-печать</b> во всех направлениях рекламы. Запечатанная пластиковая поверхность может служить информационным полем для следующих рекламных элементов:</p>
+              <ul class="uv-print-list main-content-text">
+                <li>- <b>настенные и напольные</b> информационные планшеты и панели, информационные таблички;</li>
+                <li>- доски объявлений, стенды, афиши, вывески, уголки потребителя;</li>
+                <li>- хардпостеры, ростовые фигуры, тантамарески, пресс-воллы;</li>
+                <li>- постеры, мобайлы, топперы;</li>
+                <li>- промостойки, промо-паллеты, <b>мобильные стенды</b>;</li>
+                <li>- оформление мест продаж, интерьеров, выставочных стендов;</li>
+                <li>- панели для лайтбоксов, бэклиты;</li>
+                <li>- оформление витрин, входных групп и фасадов, эскалаторов; </li>
+                <li>- муляжи, джумби, штендеры, лайтбоксы, стелы и пилоны;</li>
+                <li>- офисные <b>таблички и указатели</b>, наклейки;</li>
+                <li>- брендирование торгового и холодильного оборудования;</li>
+                <li>- элементы визуальной навигации <b>и многое другое</b>.</li>
+              </ul>
+            </div>
+          </div>
+          <hr class="content-line another-line">
+          <div class="main-content-wrapper d-flex flex-column flex-sm-row">
+            <div class="icon-wrp uv-icon-wrp order-sm-2 pl-sm-2 pr-sm-4">
+              <div class="uv-icon rounded-circle rolled-materials"></div>
+              <p>УФ-печать на рулонных <br> материалах</p>
+            </div>
+            <div>
+              <p class="main-content-text"><b>Использование УФ-отверждаемых</b> чернил позволило победить различные проблемы, сопутствующие широкоформатной печати еще несколько лет назад – медленное закрепление краски, долгий процесс финальной сушки. <b>Быстрое отверждение</b> позволило расширить ассортимент доступных для печати материалов. Отличные адгезионные свойства черил <b>позволяют</b> наносить краску практически на любую основу.</p>
+              <p class="main-content-text">Перечень <b>рулонных материалов</b>, которые можно использовать <b>для УФ-печати</b> огромен. Это полимерные пленки (глянцевые, матовые, со светорассеивающим покрытием), синтетическая баннерная ткань (в том числе и с водоотталкивающим покрытием), стеклотканевые обои, <b>самоклейка  и фотобумага</b>.</p>
+              <p class="main-content-text">Такой <b>широкий перечень материалов</b> позволяет применять <b>УФ-печать</b> во всех направлениях рекламы. Запечатанная поверхность может служить информационным полем <b>для</b> следующих <b>рекламных элементов</b>:</p>
+              <ul class="uv-print-list main-content-text">
+                <li>- баннеры;</li>
+                <li>- рулонные этикетки;</li>
+                <li>- стикеры;</li>
+                <li>- шторы и натяжные потолки;</li>
+                <li>- фотообои.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <button class="btn content-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+          </div>
+          <hr class="content-line">
+          <div class="d-flex justify-content-start">
+            <h2 class="main-content-title">Резка. Фрезеровка</h2>
+          </div>
+          <div class="main-content-wrapper d-flex flex-column flex-sm-row">
+            <div class="icon-wrp uv-icon-wrp pr-sm-5">
+              <div class="uv-icon rounded-circle cutting"></div>
+              <p>Плоттерная резка и <br>фрезерование</p>
+            </div>
+            <div>
+              <p class="main-content-text"><b>Цифровая режущая система ZUND</b> делает изготовление упаковки и финишную отделку, после печати, простой и выгодной.</p>
+              <p class="main-content-text">Ваша продукция будет <b>яркой и запоминающейся</b> благодаря контурной резке, структурным конструкциям и новым способам обработки стандартных материалов. <b>Полная совместимость</b> с популярными CAD системами проектирования и RIP программами.</p>
+              <ul class="uv-print-list main-content-text">
+                <li>Плоттерная <b>резка фрезерование</b> ZUND:</li>
+                <li>- надсечка плёнки;</li>
+                <li>- резка бумаги и картонов (<b>альтернатива вырубке</b>  небольших тиражей, в том числе и биговка);</li>
+                <li>- резка рулонных и листовых материалов в автоматическом режиме;</li>
+                <li>- резка пластиков, <b>фрезерование пластиков</b>, МДФ, дерева, алюминия, композитных материалов и т.д.</li>
+              </ul>
+              <p class="main-content-text">Проектирование и изготовление опытных образцов упаковки, ложементов.</p>
+            </div>
+          </div>
+          <div class="row">
+            <button class="btn content-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+            <div id="souvenirs"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="main-header mt-5">СУВЕНИРНАЯ ПРОДУКЦИЯ</h1>
+      <div class="container-fluid">
+        <div class="container main-wrapper souvenirs">
+          <div class="main-content-wrapper">
+            <p class="main-content-text"><b>Сувенирная продукция</b> с логотипом компании <b>намного предпочтительнее</b> обычных безликих подарков по нескольким причинам:</p>
+            <p class="main-content-text"><b>Брендирование</b> – та же реклама, которая <b>будет работать на вас постоянно</b>. Изготовление сувенирной продукции с логотипом компании говорит о статусе фирмы.</p>
+            <p class="main-content-text">Вы дарите по-настоящему <b>уникальные, «фирменные» подарки</b>, которых точно не найти в продаже. Если Вам нужна качественная сувенирная продукция с логотипом компании, Вы можете недорого заказать её <b>в компании {Brandgraf}</b>.</p>
+            <div class="d-flex flex-column justify-content-around flex-sm-row souvenirs-icons">
+              <div class="icon-wrp souvenirs-icon-wrp">
+                <div class="souvenirs-icon rounded-circle souvenirs-silk"></div>
+                <p>ШЕЛКОГРАФИЯ</p>
+                <p class="main-content-text">Нанесение логотипов, надписей <br> и фотографий на любой вид <br> бумаги и ткани</p>
+              </div>
+              <div class="icon-wrp souvenirs-icon-wrp">
+                <div class="souvenirs-icon rounded-circle souvenirs-thermal"></div>
+                <p>ТЕРМОТРАНСФЕР</p>
+                <p class="main-content-text">Прямая и цифровая печать <br> на футболках, сумках и другой <br> продукции</p>
+              </div>
+              <div class="icon-wrp souvenirs-icon-wrp">
+                <div class="souvenirs-icon rounded-circle souvenirs-pad"></div>
+                <p>ТАМПОПЕЧАТЬ</p>
+                <p class="main-content-text">Перенос изображения <br> на плоские и рельефные <br> поверхности</p>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="main-social col-lg-12">
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <img src="img/about.png" alt="">
+            <button class="btn content-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+            <div id="design"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="main-header mt-5">ДИЗАЙН</h1>
+      <div class="container-fluid">
+        <div class="container main-wrapper design">
+          <div class="main-content-wrapper">
+            <p class="main-content-text"><b>Дизайн полиграфии</b> имиджевой не менее <b>важен</b>, чем дизайн рекламной полиграфической продукции, а иногда именно он может играть <b>определяющую роль</b> в росте популярности компании.</p>
+            <p class="main-content-text"><b>Дизайн полиграфии</b> – это и разработка <b>логотипа</b> или полностью <b>фирменного стиля</b>, и креативный дизайн полиграфии с грамотным выбором шрифтов, цветов, компоновки и расположения текста и графики в Вашем рекламном изделии, <b>гармоничного</b> сочетания текста и графики.</p>
+            <div class="d-flex justify-content-around flex-column flex-md-row design-icons">
+              <div class="icon-wrp design-icon-wrp col-md-3">
+                <div class="design-icon rounded-circle design-style"></div>
+                <div class="design-around-columns d-flex flex-column">
+                  <p>ДИЗАЙН ФИРМЕННОГО СТИЛЯ</p>
+                  <p class="main-content-text">Можно ли представить себе <b>солидную</b> компанию, у которой нет фирменных бланков, не используются <b>корпоративные цвета</b>, отсутствует логотип и другие атрибуты определенного имиджа? Совокупность всех этих элементов и <b>является дизайном фирменного стиля</b> (западный эквивалент – бренд бук).</p>
+                  <p class="main-content-text"><b>Фирменный стиль</b> – в дизайнерской среде обозначает все те элементы, которые <b>формируют</b> комплекс фирменного стиля и несут на себе <b>отпечаток идеологии</b> компании.</p>
+                  <button class="btn content-btn design-btn mt-auto" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+                </div>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-0 banner">
+              <div class="icon-wrp design-icon-wrp col-md-5">
+                <div class="design-icon rounded-circle design-polygraphy"></div>
+                <div class="design-column d-flex flex-column design-around-columns">
+                  <p>ДИЗАЙН ПОЛИГРАФИИ</p>
+                  <p class="main-content-text"><b>Сердцем полиграфии является дизайн</b>, главное назначение которого заключается в том, чтобы полиграфические материалы смогли привлечь <b>внимание потребителей</b>.</p>
+                  <p class="main-content-text"><b>Полиграфический дизайн</b> охватывает весь спектр продукции, которая <b>печатается</b> на бумажных носителях или их производных</p>
+                  <p class="main-content-text"><b>Ключевое отличие дизайна полиграфии</b> от других видов дизайна в том, что создаваемые изображения или текстовые сообщения являются лишь <b>началом процесса печати</b>.</p>
+                  <p class="main-content-text">Разрабатываемая продукция: визитки, афиши, буклеты, брошюры, календари, каталоги и многие другие <b>элементы полиграфии</b>, необходимы для деятельности любой компании.</p>
+                  <button class="btn content-btn design-btn mt-auto" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
+                </div>
                 
               </div>
-              <div class="col-lg-offset-0 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="socials">
-                  <a href="https://www.facebook.com/brandgraf.ru/"></a>
-                  <a href="https://www.instagram.com/_brandgraf_/"></a>
-                  <a href="https://vk.com/brand_graf"></a>
+              <div class="icon-wrp design-icon-wrp col-md-3">
+                <div class="design-icon rounded-circle design-logo"></div>
+                <div class="design-around-columns d-flex flex-column">
+                  <p>ДИЗАЙН ЛОГОТИПА</p>
+                  <p class="main-content-text"><b>Логотип</b> – это основное средство идентификации Вашей компании. <b>Хороший логотип способен</b> не просто <b>создать</b> благоприятное первое <b>впечатление</b>, но и внушить <b>доверие</b> к компании.</p>
+                  <p class="main-content-text">Изготовление логотипов - <b>работа</b> не на один день. Кроме того, перед созданием логотипа необходимо <b>обдумать</b>, каким будет Ваш фирменный стиль.</p>
+                  <p class="main-content-text"><b>Создание логотипа</b> – важный и ответственный процесс. Здесь требуется <b>рука профессионала</b>, объективный взгляд и <b>чувство вкуса</b>.</p>
+                  <button class="btn content-btn design-btn mt-auto" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid steps">
+        <div class="container">
+          <div class="steps-wrapper">
+            <div class="step hand-1">
+              <p class="hand-text"><b>Главное</b> для нас - <b>четкое,</b><br>качественное и своевременное <b>выполнение задачи!</b></p>
+            </div>
+            <div class="step hand-2">
+              <p class="hand-text"><b>Главное</b> для нас - <b>четкое,</b><br>качественное и своевременное <b>выполнение задачи!</b></p>
+            </div>
+            <div class="step hand-3">
+              <p class="hand-text"><b>Главное</b> для нас - <b>четкое,</b><br>качественное и своевременное <b>выполнение задачи!</b></p>
+            </div>
+            <div class="step hand-4">
+              <p class="hand-text"><b>Главное</b> для нас - <b>четкое,</b><br>качественное и своевременное <b>выполнение задачи!</b></p>
+            </div>
+            <div class="step hand-5">
+              <p class="hand-text"><b>Главное</b> для нас - <b>четкое,</b><br>качественное и своевременное <b>выполнение задачи!</b></p>
+            </div>
+            <div class="step hand-6">
+              <p class="hand-text"><b>Главное</b> для нас - <b>четкое,</b><br>качественное и своевременное <b>выполнение задачи!</b></p>
+            </div>
+            <div class="step hand-7">
+              <p class="hand-text"><b>Главное</b> для нас - <b>четкое,</b><br>качественное и своевременное <b>выполнение задачи!</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="container consultation">
+          <div class="row">
+            <h1 class="consultation-text">получите консультацию <br> наших специалистов</h1>
+          </div>
+          <div class="row">
+            <button class="btn consultation-btn" data-toggle="modal" data-target="#myModal">получить консультацию</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contacts">
+      <h1 class="main-header mb-0">контакты</h1>
+      <div class="container-fluid">
+        <div class="container main-wrapper contacts">
+          <div class="row">
+            <div class="contacts-wrapper col-12 col-sm-6 col-md-5 offset-md-1">
+              <span class="contacts-title contacts-phone">Телефон:</span>
+              <p class="contacts-info">+(495) 274-06-17</p>
+              <span class="contacts-title contacts-time">Время работы:</span>
+              <p class="contacts-info">Пн.-Пт.:с 9:00 до 19:00</p>
+            </div>
+            <div class="contacts-wrapper col-12 col-sm-6 col-md-6">
+              <span class="contacts-title contacts-email">E-mail:</span>            
+              <p class="contacts-info">info@brandgraf.ru</p>
+              <span class="contacts-title contacts-address">Адрес:</span>            
+              <p class="contacts-info">Москва, ул. Большая Новодмитровская <br>д.36, стр.1</p>
             </div>
           </div>
           <div class="row">
-            <div class="services col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="services-wrpa">
-                <a href="#print"></a>
-                <a href="#polygraphic"></a>
-                <a href="#design"></a>
-              </div>  
-            </div>
-          </div>
-          <div class="row arrow-block">
-            <div class="arrow-wrp">
-              <a href="#polygraphic">
-                <span class="glyphicon glyphicon-chevron-down"></span></a>
-            </div>
-            <div class="arrow-wrp">
-              <a href="#polygraphic">
-                <span class="glyphicon glyphicon-chevron-down"></span></a>
-            </div>
+            <a href="" class="col-12 mt-3 mb-2 ">
+              <img src="img/footer-logo.png" alt="Brandgraf" class="footer-logo mx-auto d-block">
+            </a>
           </div>
         </div>
-      </div>
-    </main>
-    <div class="brand-block container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="brand-logo"></div>
-        </div>
-      </div>
-      <div id="polygraphic"></div>
-    </div>
-    <div class="content-header">
-      <h1 class="content-header-title">полиграфия</h1>
-    </div>
-    <section class="container-fluid">
-      <div class="container main-block">
-        <div class="row">
-          <section class="content-block">
-              <h3 class="content-block-title">Цифровая печать</h3>
-              <div class="content-block-text">
-                <p><b>Цифровая печать</b> в наше время признается наиболее эффективной и современной технологией в полиграфии. Она имеет ряд важнейших плюсов, которые делают её столь популярной среди потребителей. Это один из лучших способов <b>сделать качественную рекламу</b>, при этом выгодно и громко заявить о себе на рынке.</p>
-                <p>Наши специалисты прелагают Вам быструю и качественную цифровую печать с применением самых современных и эффективных технологий, что даст <b>возможность воплотить в реальность</b> любой, даже самый сложный проект.</p>
-                <p>Если Вашим решением станет цифровая печать в нашей типографии, то Вы получите качественное обслуживание, максимальную оперативность в работе, самые современные технологии и эффективную рекламу, которая станет лучшим решением для Вас и вашего бизнеса, и позволит Вам <b>добиться успеха</b> в максимально короткие сроки.</p>
-              </div>
-              <div class="content-icons-wrp col-lg-offset-1 col-lg-10 col-md-12 col-sm-12 hidden-xs">
-                <div class="content-icons-inner-wrp1">    
-                  <div class="content-icons">
-                    <img src="img/Asset1.png" alt="">
-                    <p>визитки</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset2.png" alt="">
-                    <p>брошюры</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset3.png" alt="">
-                    <p>календари</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset4.png" alt="">
-                    <p>буклеты</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset5.png" alt="">
-                    <p>конверты</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset6.png" alt="">
-                    <p>листовки</p>
-                  </div>
-                </div>
-              </div>
-              <div class="content-icons-wrp col-lg-offset-1 col-lg-10 col-md-12 col-sm-12 hidden-xs">
-                <div class="content-icons-inner-wrp2">    
-                  <div class="content-icons"></div>
-                  <div class="content-icons">
-                    <img src="img/Asset10.png" alt="">
-                    <p>плакаты</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset9.png" alt="">
-                    <p>блокноты</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset8.png" alt="">
-                    <p>наклейки</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset7.png" alt="">
-                    <p>приглашения</p>
-                  </div>
-                </div>
-              </div>  
-              <button class="send-btn-content" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
-          </section>
-          <section class="content-block content-block-2s">
-              <hr class="content-line">
-              <div class="clearfix">
-                <h3 class="content-block-title pull-right another-title">Офсетная печать</h3>
-              </div>  
-              <div class="content-block-text">
-                <p><b>Офсетная печать</b> - наиболее востребованная услуга из типографических. Самый качественный способ печати. Он передаёт все оттенки полутона красок, чётко пропечатывает едва заметные линии. Это <b>лучший из существующих</b> способов изготовления полиграфической продукции.</p>
-                <p><b>Офсетная печать</b> - это <b>находка для заказчиков</b>, для которых передача цвета превыше всего. Разнообразие цветов и возможность печатать различные оттенки - главное положительное отличие от других способов полиграфической печати. Помимо ярких оттенков, офсет даёт возможность печатать и <b>металлизированные оттенки</b> (золотистый, серебристый и бронзовый). Подготовка к печати - процесс не минутный, но после скорость печати - до пятнадцати тысяч копий за 1 час.</p>
-              </div>
-              <div class="content-icons-wrp col-lg-offset-1 col-lg-10 col-md-12 col-sm-12 hidden-xs">
-                <div class="content-icons-inner-wrp1">  
-                  <div class="content-icons">
-                    <img src="img/Asset1.png" alt="">
-                    <p>визитки</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset2.png" alt="">
-                    <p>брошюры</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset3.png" alt="">
-                    <p>календари</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset4.png" alt="">
-                    <p>буклеты</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset5.png" alt="">
-                    <p>конверты</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset6.png" alt="">
-                    <p>листовки</p>
-                  </div>
-                </div>
-              </div>
-              <div class="content-icons-wrp col-lg-offset-1 col-lg-10 col-md-12 col-sm-12 hidden-xs">
-                <div class="content-icons-inner-wrp1">  
-                  <div class="content-icons">
-                    <img src="img/Asset11.png" alt="">
-                    <p>журналы</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset10.png" alt="">
-                    <p>плакаты</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset9.png" alt="">
-                    <p>блокноты</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset8.png" alt="">
-                    <p>наклейки</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset12.png" alt="">
-                    <p>пакеты</p>
-                  </div>
-                  <div class="content-icons">
-                    <img src="img/Asset13.png" alt="">
-                    <p>приглашения</p>
-                  </div>
-                </div>
-              </div>  
-              <button class="send-btn-content" data-toggle="modal" data-target="#myModal2" id="print">отправить запрос</button>
-          </section>
-        </div> 
-      </div>
-      <div></div>
-    </section>
-    <div class="content-header big-title">
-      <h1 class="content-header-title">широкоформатная печать</h1>
-    </div>
-    <section class="container-fluid">
-      <div class="container main-block">
-        <div class="row">
-          <section class="content-block">
-              <div class="content-block-text">
-                <p>Для получения ярких, четких изображений большого размера используется <b>широкоформатная печать.</b> Сфера её применения - изготовление <b>баннеров, плакатов, растяжен, световых коробов, объемных букв.</b> Метод часто используется, если рекламная конструкция будет устанавливаться в местах со сложными климатическими условиями: под интенсивными лучами солнца, порывами ветра, дождем, снегом. Полученная в результате рекламной широкоформатной печати продукция не теряет внешний вид даже под градом.</p>
-                <p>Одно из главных достоинств этой техники - высокое разрешение изображений. Благодаря этому конструкции можно использовать внутри и снаружи помещений. Изображенные элементы будут хорошо видны с большого расстояния. Услуги широкоформатной печати востребованы для оформления <b>выставок, офисов, квартир, стендов, торговых залов, транспортных средств.</b></p>
-                <p>В качестве основы используются рулонные и листовые материалы. Возможна <b>печать на бумаге, ткани, пленке, сетке. Широкоформатная печать</b> подходит для создания <b>крупных изображений - баннеров, плакатов</b> и другой продукции.</p>
-              </div>
-              <div class="formatprint-types-wrp col-lg-offset-1  col-md-offset-0 col-sm-offset-0 col-xs-offset-0">
-                <div class="content-icons-inner-wrp3">  
-                  <div class="formatprint-types">
-                    <div class="formatprint-icon formatprint-banner"></div>
-                    <p>баннеры и растяжки</p>
-                  </div>
-                  <div class="formatprint-types">
-                    <div class="formatprint-icon formatprint-setka"></div>
-                    <p>печать на сетке</p>
-                  </div>
-                  <div class="formatprint-types">
-                    <div class="formatprint-icon formatprint-plenka"></div>
-                    <p>печать на пленке</p>
-                  </div>
-                </div>
-              </div>
-              <button class="send-btn-content" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
-          </section>
-          <section class="content-block content-block-3s">
-              <hr class="content-line">
-              <div class="clearfix">
-                <h3 class="content-block-title pull-right another-title">Интерьерная печать</h3>
-              </div>  
-              <div class="content-block-text">
-                <p><b>Интерьерная печать</b> – характеризуется высоким разрешением и точностью цветопередачи, что позволяет получать практически <b>фотографическое изображение.</b></p>
-                <p>Интерьерная печать применяется <b>для оформления</b> помещений, выставочных экспозиций, мест продажи внутри игровых комплексов, офисов компаний, а также собственной квартиры.</p>
-                <p>Использование пигментных чернил на водной основе, и <b>высокое разрешение печати</b> позволяет получать насыщенные изображения, сохраняя при этом тончайшие цветовые оттенки, полутона и переходы. В результате графика приобретает привлекательный красочный вид.</p>
-                <p><b>Широкий спектр материалов</b> для интерьерной печати: фотобумага, самоклеящейся и светорассеивающая плёнка (Бэклит), акварельная бумага, художественный холст и шелк <b>поможет вам в реализации</b> ваших творческих замыслов.</p>
-              </div>
-              <div class="col-lg-offset-1 col-lg-11 col-md-12 col-sm-offset-2 col-sm-10 col-xs-offset-0 col-xs-12">
-                <div class="content-icons-inner-wrp4">  
-                  <div class="content-icons interior-icons">
-                    <div class="interior-img-wrp"></div>                    
-                    <p>печать на пленке</p>
-                  </div>
-                  <div class="content-icons interior-icons">
-                    <div class="interior-img-wrp"></div>  
-                    <p>печать на холсте</p>
-                  </div>
-                  <div class="content-icons interior-icons">
-                    <div class="interior-img-wrp"></div>
-                    <p>печать на постерной <br>и фотобумаге</p>
-                  </div>
-                  <div class="content-icons interior-icons">
-                    <div class="interior-img-wrp"></div>
-                    <p>плоттерная резка</p>
-                  </div>
-                </div>
-              </div>
-              <button class="send-btn-content interior-print-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
-          </section>
-          <section class="content-block">
-              <hr class="content-line">
-              <div class="clearfix">
-                <h3 class="content-block-title another-title">Конструкции</h3>
-              </div>
-              <div class="construct-content-wrp">
-                <div class="content-icons construct-icons">
-                  <div class="construct-icon-wrp construct-icon1"></div>
-                  <p class="norm-tt"><b>Roll Up</b></p>
-                </div>
-                <div class="content-block-text">
-                  <p><b>Roll Up</b> – мобильные стенды представляют <b>тип переносных</b> рекламных конструкций. <b>Roll Up</b> популярны на выставках, при проведении промоакции, для информации покупателям о скидках, при btl-акциях, а также рекламных компаний.</p>
-                  <p>Легкое использование, срочное изготовление, малая цена, удобства при хранении и транспортировки послужили для роста популярности <b>Roll Up</b> стендов. Конструкция рекламного стенда позволяет просто и <b>быстро развернуть</b> рекламное полотно на выставке, акции, мероприятии.</p>
-                </div>
-              </div>  
-              <br>
-               <hr class="content-line another-line">
-              <div>
-                <div class="content-icons construct-icons construct-icons-right">
-                  <div class="construct-icon-wrp construct-icon2"></div>
-                  <p class="norm-tt"><b>Press Wall</b></p>
-                </div>
-                <div class="content-block-text construct-text-right">
-                  <p><b>Press Wall</b> представляет собой конструкцию из каркаса и натянутого на нее баннера. Он служит хорошим заменителем дорогих декораций, <b>с его помощью оформляется</b> фоновое пространство сцены.</p>
-                  <p>Каркас <b>может быть любым</b> -  и металлическим и деревянным. Сегодня популярным стал каркас из хромированной трубы, благодаря внешнему виду такого металлокаркаса, стенд выглядит весьма презентабельно.</p>
-                  <p>Небольшой вес, малые габариты в разобранном состоянии, <b>легкость конструкции</b>, возможность быстрой смены баннера, а также <b>простата монтажа</b> обеспечили устойчивый спрос на баннерные конструкции.</p>
-                </div>
-                <hr class="content-line another-line">
-              </div>
-              <div>
-                <div class="content-icons construct-icons">
-                  <div class="construct-icon-wrp construct-icon3"></div>
-                  <p><b>Y, L, X - баннеры</b></p>
-                </div>
-                <div class="content-block-text">
-                  <p>Главный принцип, заложенный в основу конструкций <b>баннерных стендов – простата.</b> Плакат мобильного стенда натягивается на лёгкую прочную быстрособираемую конструкцию. Как правило, любой <b>баннерный стенд</b> можно собрать за 30 секунд.</p>
-                  <p><b>Различные модели</b> баннерных мобильных стендов предоставляют клиенту разнообразие выбора конструкций и размеров при традиционно <b>низкой цене.</b> Именно благодаря низкой цене баннерные стенды пользуются устойчивым спросом в тех случаях, когда акция, которую они сопровождают, носит краткосрочный характер и, когда требуется «выглядеть хорошо», потратив на это <b>минимум средств.</b></p>
-                </div>
-                <hr class="content-line another-line">
-              </div>
-              <div>
-                <div class="content-icons construct-icons construct-icons-right">
-                  <div class="construct-icon-wrp construct-icon4"></div>
-                  <p class="norm-tt"><b>Pop Up</b></p>
-                </div>
-                <div class="content-block-text construct-text-right">
-                  <p><b>Мобильный выставочный стенд Pop Up</b> – это модульный конструктор. Его базовым элементом являются секции, которые можно состыковать друг с другом по ширине и высоте, <b>создавая</b> тем самым различные по форме и размерам композиции.</p>
-                  <p>Стандартный <b>Pop Up</b> – стенд типа «стена». Изменяя размер и форму решетки, можно оформить, практически, любую экспозицию. <b>Pop Up</b> хорошо вписывается в <b>любой дизайн.</b> Стенд позволяет легко и просто менять изображение, его просто собрать-разобрать, удобно транспортировать.</p>
-                  <p>К таким стендам подходит <b>мобильная тумба</b> с фотопанелью, внутри тумбы установлена полка.</p>
-                </div>
-                <hr class="content-line another-line">
-              </div>
-              <div>
-                <div class="content-icons construct-icons icon-shtender">
-                  <div class="construct-icon-wrp construct-icon5 shtender-wrp"></div>
-                  <p><b>рекламные штендеры</b></p>
-                </div>
-                <div class="content-block-text">
-                  <p><b>Штендер</b> – это рекламная конструкция, но при этом штендер <b>мобилен</b>, что сильно упрощает его размещение. Рекламная площадь может быть расположена с одной или двух сторон.</p>
-                  <p>Штендеры имеют металлическую раму, которую можно покрасить в <b>любой цвет.</b> Рама штендера может быть <b>прямоугольной или арочной</b>, на неё крепят металлическую или пластиковую основу, на которой размещена рекламная информация.</p>
-                  <p><b>Наша компания предлагает купить</b> штендеры различной формы и всех цветов, а также оперативно изготовит и доставит Вам <b>готовый штендер.</b></p>
-                </div>
-              </div>
-              <button class="send-btn-content construct-send-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>    
-          </section>
-        </div> 
-        <div id="uv"></div>
-      </div>
-    </section>
-    <div class="content-header big-title uv-print">
-      <h1 class="content-header-title">УФ-печать</h1>
-    </div>
-    <section class="container-fluid">
-      <div class="container main-block">
-        <div class="row">
-          <section class="content-block uv-print-content">
-            <div class="clearfix">
-              <h3 class="content-block-title another-title">Ультрафиолетовая печать</h3>
-            </div>
-            <div>
-              <div class="content-block-text">
-                <p><b>Ультрафиолетовая печать</b> (UV или УФ печать) – <b>разновидность струйной печати</b> с использованием УФ-отверждаемых чернил, которые застывают (фотополимеризируются) под воздействием ультрафиолетового излучения, образуя толстую пленку на запечатываемом материале.</p>
-                <p>Впервые струйный УФ принтер появился еще в 2000 году. А наша компания <b>успешно осваивает</b> этот вид печати уже более пяти лет. За это время мы <b>стали истинными поклонниками</b> машин с технологией УФ-печати, у нас есть оборудование для любой задачи!</p>
-                <p>Это позволяет <b>экономить время</b> на производство продукции, а так же дает <b>возможность воплотить</b> в жизнь намного больше идей!</p>
-              </div>
-              <hr class="content-line another-line">
-            </div>  
-            <div>
-              <div class="content-icons uv-icons">
-                <div class="uv-icon-wrp uv-print-icon1"></div>
-                <p class="norm-tt"><b>УФ-печать на листовых <br> материалах</b></p>
-              </div>
-              <div class="content-block-text">
-                <p><b>Перечень листовых материалов</b>, которые можно использовать <b>для УФ-печати</b> огромен. Это ПВХ, полистирол, акрил, сотовый поликарбонат, пенокартон, гофрокартон, бумага, композитный материал, некоторые металлы (жесть, алюминий) и многое другое.</p>
-                <p>Такой широкий перечень материалов <b>позволяет применять УФ-печать</b> во всех направлениях рекламы. Запечатанная пластиковая поверхность может служить информационным полем для следующих рекламных элементов:</p>
-                <ul class="uv-print-list">
-                  <li>- <b>настенные и напольные</b> информационные планшеты и панели, информационные таблички;</li>
-                  <li>- доски объявлений, стенды, афиши, вывески, уголки потребителя;</li>
-                  <li>- хардпостеры, ростовые фигуры, тантамарески, пресс-воллы;</li>
-                  <li>- постеры, мобайлы, топперы;</li>
-                  <li>- промостойки, промо-паллеты, <b>мобильные стенды</b>;</li>
-                  <li>- оформление мест продаж, интерьеров, выставочных стендов;</li>
-                  <li>- панели для лайтбоксов, бэклиты;</li>
-                  <li>- оформление витрин, входных групп и фасадов, эскалаторов; </li>
-                  <li>- муляжи, джумби, штендеры, лайтбоксы, стелы и пилоны;</li>
-                  <li>- офисные <b>таблички и указатели</b>, наклейки;</li>
-                  <li>- брендирование торгового и холодильного оборудования;</li>
-                  <li>- элементы визуальной навигации <b>и многое другое</b>.</li>
-                </ul>
-              </div>
-              <hr class="content-line another-line">
-            </div>
-            <div>
-              <div class="content-icons uv-icons construct-icons-right">
-                <div class="uv-icon-wrp uv-print-icon2"></div>
-                <p class="norm-tt"><b>УФ-печать на рулонных <br> материалах</b></p>
-              </div>
-              <div class="content-block-text construct-text-right">
-                <p><b>Использование УФ-отверждаемых</b> чернил позволило победить различные проблемы, сопутствующие широкоформатной печати еще несколько лет назад – медленное закрепление краски, долгий процесс финальной сушки. <b>Быстрое отверждение</b> позволило расширить ассортимент доступных для печати материалов. Отличные адгезионные свойства черил <b>позволяют</b> наносить краску практически на любую основу.</p>
-                <p>Перечень <b>рулонных материалов</b>, которые можно использовать <b>для УФ-печати</b> огромен. Это полимерные пленки (глянцевые, матовые, со светорассеивающим покрытием), синтетическая баннерная ткань (в том числе и с водоотталкивающим покрытием), стеклотканевые обои, <b>самоклейка  и фотобумага</b>.</p>
-                <p>Такой <b>широкий перечень материалов</b> позволяет применять <b>УФ-печать</b> во всех направлениях рекламы. Запечатанная поверхность может служить информационным полем <b>для</b> следующих <b>рекламных элементов</b>:</p>
-                <ul>
-                  <li>- баннеры;</li>
-                  <li>- рулонные этикетки;</li>
-                  <li>- стикеры;</li>
-                  <li>- шторы и натяжные потолки;</li>
-                  <li>- фотообои.</li>
-                </ul>
-              </div>
-            </div>
-            <button class="send-btn-content construct-send-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>    
-          </section>
-          <hr class="content-line">
-          <section class="content-block rezka-block">
-            <div class="clearfix">
-              <h3 class="content-block-title another-title">Резка. Фрезеровка</h3>
-            </div>
-            <div>
-              <div class="content-icons uv-icons">
-                <div class="uv-icon-wrp uv-print-icon3"></div>
-                <p class="norm-tt"><b>Плоттерная резка и <br>фрезерование</b></p>
-              </div>
-              <div class="content-block-text rezka">
-                <p><b>Цифровая режущая система ZUND</b> делает изготовление упаковки и финишную отделку, после печати, простой и выгодной.</p>
-                <p>Ваша продукция будет <b>яркой и запоминающейся</b> благодаря контурной резке, структурным конструкциям и новым способам обработки стандартных материалов. <b>Полная совместимость</b> с популярными CAD системами проектирования и RIP программами.</p>
-                <ul>
-                  <li>Плоттерная <b>резка фрезерование</b> ZUND:</li>
-                  <li>- надсечка плёнки;</li>
-                  <li>- резка бумаги и картонов (<b>альтернатива вырубке</b>  небольших тиражей, в том числе и биговка);</li>
-                  <li>- резка рулонных и листовых материалов в автоматическом режиме;</li>
-                  <li>- резка пластиков, <b>фрезерование пластиков</b>, МДФ, дерева, алюминия, композитных материалов и т.д.</li>
-                </ul>
-                <p>Проектирование и изготовление опытных образцов упаковки, ложементов.</p>
-              </div>
-            </div>
-            <button class="send-btn-content construct-send-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>    
-          </section>
-        </div> 
-        <div id="souvenirs"></div>
-      </div>
-    </section>
-    <div class="content-header big-title uv-print">
-      <h1 class="content-header-title">сувенирная продукция</h1>
-    </div>
-    <section class="container-fluid">
-      <div class="container main-block">
-        <div class="row">
-          <section class="content-block souvenir-content-block">
-              <div class="content-block-text">
-                <p><b>Сувенирная продукция</b> с логотипом компании <b>намного предпочтительнее</b> обычных безликих подарков по нескольким причинам:</p>
-                <p><b>Брендирование</b> – та же реклама, которая <b>будет работать на вас постоянно</b>. Изготовление сувенирной продукции с логотипом компании говорит о статусе фирмы.</p>
-                <p>Вы дарите по-настоящему <b>уникальные, «фирменные» подарки</b>, которых точно не найти в продаже. Если Вам нужна качественная сувенирная продукция с логотипом компании, Вы можете недорого заказать её <b>в компании {Brandgraf}</b>.</p>
-              </div>
-              <div class="formatprint-types-wrp col-lg-offset-1 col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12">
-                <div class="souvenir-types souvenir-block">
-                  <div class="uv-icon-wrp souvenir-icon1"></div>
-                  <p>шелкография</p>
-                  <p class="souvenir-text">Нанесение логотипов, надписей <br> и фотографий на любой вид <br> бумаги и ткани</p>
-                </div>
-                <div class="souvenir-types souvenir-block">
-                  <div class="uv-icon-wrp souvenir-icon2"></div>
-                  <p>термотрансфер</p>
-                  <p class="souvenir-text">Прямая и цифровая печать <br> на футболках, сумках и другой <br> продукции</p>
-                </div>
-                <div class="souvenir-types souvenir-block">
-                  <div class="uv-icon-wrp souvenir-icon3"></div>
-                  <p>тампопечать</p>
-                  <p class="souvenir-text">Перенос изображения <br> на плоские и рельефные <br> поверхности</p>
-                </div>
-              </div>
-              <br>
-              <button class="send-btn-content send-btn-souvenir" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
-          </section>   
-        </div> 
-        <div id="design"></div>
-      </div>
-    </section>
-    <div class="content-header big-title uv-print">
-      <h1 class="content-header-title">дизайн</h1>
-    </div>
-    <section class="container-fluid">
-      <div class="container main-block design-container">
-        <div class="row">
-          <section class="content-block souvenir-content-block">
-              <div class="content-block-text">
-                <p><b>Дизайн полиграфии</b> имиджевой не менее <b>важен</b>, чем дизайн рекламной полиграфической продукции, а иногда именно он может играть <b>определяющую роль</b> в росте популярности компании.</p>
-                <p><b>Дизайн полиграфии</b> – это и разработка <b>логотипа</b> или полностью <b>фирменного стиля</b>, и креативный дизайн полиграфии с грамотным выбором шрифтов, цветов, компоновки и расположения текста и графики в Вашем рекламном изделии, <b>гармоничного</b> сочетания текста и графики.</p>
-              </div>
-              <div class="formatprint-types-wrp desgin-blocks-wrp">
-                <div class="souvenir-types souvenir-block design-block">
-                  <div class="uv-icon-wrp design-icon1"></div>
-                  <p>дизайн фирменного стиля</p>
-                  <p class="souvenir-text">Можно ли представить себе <b>солидную</b> компанию, у которой нет фирменных бланков, не используются <b>корпоративные цвета</b>, отсутствует логотип и другие атрибуты определенного имиджа? Совокупность всех этих элементов и <b>является дизайном фирменного стиля</b> (западный эквивалент – бренд бук).</p>
-                  <p class="souvenir-text"><b>Фирменный стиль</b> – в дизайнерской среде обозначает все те элементы, которые <b>формируют</b> комплекс фирменного стиля и несут на себе <b>отпечаток идеологии</b> компании.</p>
-                  <button class="send-btn-content design-send-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
-                </div>
-                <div class="souvenir-types souvenir-block design-block design-block-middle">
-                  <div class="uv-icon-wrp design-icon2"></div>
-                  <div class="design-wrp-for-lines">
-                    <p>дизайн полиграфии</p>
-                    <p class="souvenir-text"><b>Сердцем полиграфии является дизайн</b>, главное назначение которого заключается в том, чтобы полиграфические материалы смогли привлечь <b>внимание потребителей</b>.</p>
-                    <p class="souvenir-text"><b>Полиграфический дизайн</b> охватывает весь спектр продукции, которая <b>печатается</b> на бумажных носителях или их производных.</p>
-                    <p class="souvenir-text"><b>Ключевое отличие дизайна полиграфии</b> от других видов дизайна в том, что создаваемые изображения или текстовые сообщения являются лишь <b>началом процесса печати</b>.</p>
-                    <p class="souvenir-text">Разрабатываемая продукция: визитки, афиши, буклеты, брошюры, календари, каталоги и многие другие <b>элементы полиграфии</b>, необходимы для деятельности любой компании.</p>
-                    <button class="send-btn-content design-send-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
-                  </div>
-                </div>
-                <div class="souvenir-types souvenir-block design-block">
-                  <div class="uv-icon-wrp design-icon3"></div>
-                  <p>дизайн логотипа</p>
-                  <p class="souvenir-text"><b>Логотип</b> – это основное средство идентификации Вашей компании. <b>Хороший логотип способен</b> не просто <b>создать</b> благоприятное первое <b>впечатление</b>, но и внушить <b>доверие</b> к компании.</p>
-                  <p class="souvenir-text">Изготовление логотипов - <b>работа</b> не на один день. Кроме того, перед созданием логотипа необходимо <b>обдумать</b>, каким будет Ваш фирменный стиль.</p>
-                  <p class="souvenir-text"><b>Создание логотипа</b> – важный и ответственный процесс. Здесь требуется <b>рука профессионала</b>, объективный взгляд и <b>чувство вкуса</b>.</p>
-                  <button class="send-btn-content design-send-btn" data-toggle="modal" data-target="#myModal2">отправить запрос</button>
-                </div>
-              </div>
-          </section>   
-        </div> 
-      </div>
-    </section>
-    <div class="container-fluid comments">
-      <div class="container comments-container">
-        <div class="row">
-        <div class="steps-wrp">
-          <div class="step step1"><img src="img/Asset 2.png" alt="step1"></div>
-          <div class="step step2"><img src="img/Asset 3.png" alt="step2"></div>
-          <div class="step step3">
-            <img src="img/Asset 4.png" alt="step3">
-            <p class="step3-text"><b>Любой проект</b>, который делается <br> группой, <b>должен быть интересен</b> <br>проектной команде. <br> <b>Профессионализм</b>, блеск в глазах <br>и чувство юмора. <br> Что еще нужно <b>для успеха</b>?</p>
-          </div>
-          <div class="step step4"></div>
-          <div class="step step5"></div>
-          <div class="step step6"></div>
-          <div class="step step7"></div>
-        </div>
-          <!-- <div class="comments-wrp"></div> -->
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="container consultation">
-        <div class="row">
-          <h1 class="consultation-title">получите консультацию <br> наших специалистов</h1>
-          <button class="consultation-btn" data-toggle="modal" data-target="#myModal">получить консультацию</button>
-        </div>
-      </div>
-    </div>
-    <div class="content-header big-title uv-print">
-      <h1 class="content-header-title">контакты</h1>
-    </div> 
-    <footer class="container-fluid" id="contacts">
-      <div class="container main-block">
-        <div class="row">
-          <div class="footer-wrp">
-            <div class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-0 col-sm-5 col-xs-offset-0 col-xs-6">
-              <span class="footer-content footer-phone">Телефон: <br>
-                <p>+(495) 274-06-17</p>
-              </span>
-              <span class="footer-content footer-time">Время работы: <br>
-                <p>Пн.-Пт.:с 9:00 до 19:00</p>
-              </span>
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-6">
-              <span class="footer-content footer-email">E-mail: <br> 
-                <p>info@brandgraf.ru</p>
-              </span>
-              <span class="footer-content footer-address">Адрес: <br>
-                <p>Москва, ул. Большая Новодмитровская <br> д.36, стр.1</p>
-              </span>
-            </div>
-            <div class="row">
-              <div class="footer-logo col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10"></div>
-            </div>     
-          </div> 
-        </div> 
       </div>
     </footer>
-    <div class="container-fluid con-grass">
-      <div class="container footer-grass">
-        <div class="row"></div>
-      </div>
-    </div>
-
-   <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
      <div class="modal-dialog">
        <div class="modal-content">
          <div class="modal-body">
            <h1>Рассчитать стоимость заказа <br>или задать вопрос</h1>
            <!-- Form itself -->
            <form name="sentMessage" class="form form-register1" id="contactForm1"  novalidate>
+              <div class="d-sm-flex justify-content-between">
+               <div class="control-group">
+                 <div class="controls">
+                   <input type="text" class="form-control form-name" placeholder="Ваше имя" name="name2" id="name2" required data-validation-required-message="Пожалуйста укажите ваше имя" />
+                 </div>
+               </div>  
+               <div class="control-group">
+                 <div class="controls">
+                   <input type="tel" class="form-control form-phone" placeholder="Ваш телефон" name="phone2" id="phone2" required data-validation-required-message="Пожалуйста, укажите номер телефона" />
+                 </div>
+               </div>  
+              </div>
              <div class="control-group">
                <div class="controls">
-                 <input type="text" class="form-control form-name" placeholder="Ваше имя" name="name2" id="name2" required data-validation-required-message="Пожалуйста укажите ваше имя" />
-                   <p class="help-block"></p>
-               </div>
-             </div>  
-             <div class="control-group">
-               <div class="controls">
-                 <input type="tel" class="form-control form-phone" placeholder="Ваш телефон" name="phone2" id="phone2" required data-validation-required-message="Пожалуйста, укажите номер телефона" />
-               </div>
-             </div>  
-             <div class="clearfix"></div>
-             <div class="control-group">
-               <div class="controls">
-                 <input type="email" class="form-control form-email" placeholder="Ваш e-mail" name="email2" id="email2" required data-validation-required-message="Пожалуйста, укажите вашу электронную почту" />
+                 <input type="email" class="form-control form-email mr-auto ml-auto" placeholder="Ваш e-mail" name="email2" id="email2" required data-validation-required-message="Пожалуйста, укажите вашу электронную почту" />
                </div>
              </div> 
              <div class="control-group" id="select">
@@ -642,60 +624,60 @@
              </div>
              <div class="control-group" id="select">
                <div class="controls">
-                 <textarea name="comment2" class="form-control form-comment" id="comment2" placeholder="Введите текст сообщения" required></textarea>
+                 <textarea name="comment2" class="form-control form-comment" id="comment2" placeholder="Введите текст сообщения" rows="6" required></textarea>
                </div>
              </div>
              <div id="success"></div> <!-- For success/fail messages -->
-             <button type="submit" class="btn btn-lg btn-3d pull-center form-btn">Отправить</button><br/>
+             <button type="submit" class="btn btn-lg btn-3d form-btn">Отправить</button><br/>
            </form>
          </div><!--End of Modal body-->
        </div><!--End of Modal content-->
      </div><!--End of Modal dialog-->
    </div><!--End of Modal -->
     <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <h1>Отправить запрос</h1>
-            <!-- Form itself -->
-            <form name="sentMessage" class="form form-register1" id="contactForm"  novalidate>
-              <div class="control-group">
-                <div class="controls">
-                  <input type="text" class="form-control form-name" placeholder="Ваше имя" name="name" id="name" required data-validation-required-message="Пожалуйста укажите ваше имя" />
-                    <p class="help-block"></p>
-                </div>
-              </div>  
-              <div class="control-group">
-                <div class="controls">
-                  <input type="tel" class="form-control form-phone" placeholder="Ваш телефон" name="phone" id="phone" required data-validation-required-message="Пожалуйста, укажите номер телефона" />
-                </div>
-              </div>  
-              <div class="clearfix"></div>
-              <div class="control-group">
-                <div class="controls">
-                  <input type="email" class="form-control form-email" placeholder="Ваш e-mail" name="email" id="email" required data-validation-required-message="Пожалуйста, укажите вашу электронную почту" />
-                </div>
-              </div> 
-              <div class="control-group" id="select">
-                <div class="controls">
-                  <textarea name="comment" class="form-control form-comment" id="comment" placeholder="Введите текст сообщения" required></textarea>
-                </div>
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-body">
+           <h1>отправить запрос</h1>
+           <!-- Form itself -->
+           <form name="sentMessage" class="form form-register1" id="contactForm2"  novalidate>
+              <div class="d-sm-flex justify-content-between">
+               <div class="control-group">
+                 <div class="controls">
+                   <input type="text" class="form-control form-name" placeholder="Ваше имя" name="name" id="name" required data-validation-required-message="Пожалуйста укажите ваше имя" />
+                 </div>
+               </div>  
+               <div class="control-group">
+                 <div class="controls">
+                   <input type="tel" class="form-control form-phone" placeholder="Ваш телефон" name="phone" id="phone" required data-validation-required-message="Пожалуйста, укажите номер телефона" />
+                 </div>
+               </div>  
               </div>
-              <div id="success"></div> <!-- For success/fail messages -->
-              <button type="submit" class="btn btn-lg btn-3d pull-center form-btn">Отправить</button><br/>
-            </form>
-          </div><!-- End of Modal body -->
-        </div><!-- End of Modal content -->
-      </div><!-- End of Modal dialog -->
-    </div><!-- End of Modal -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+             <div class="control-group">
+               <div class="controls">
+                 <input type="email" class="form-control form-email mr-auto ml-auto" placeholder="Ваш e-mail" name="email" id="email" required data-validation-required-message="Пожалуйста, укажите вашу электронную почту" />
+               </div>
+             </div> 
+             <div class="control-group" id="select">
+               <div class="controls">
+                 <textarea name="comment" class="form-control form-comment" id="comment" placeholder="Введите текст сообщения" rows="6" required></textarea>
+               </div>
+             </div>
+             <div id="success"></div> <!-- For success/fail messages -->
+             <button type="submit" class="btn btn-lg btn-3d form-btn">Отправить</button><br/>
+           </form>
+         </div><!--End of Modal body-->
+       </div><!--End of Modal content-->
+     </div><!--End of Modal dialog-->
+   </div><!--End of Modal -->
     <script src="js/recall_me.js" type="text/javascript"></script>
     <script src="js/recall_me2.js" type="text/javascript"></script>
     <script src="js/jqBootstrapValidation.js" type="text/javascript"></script>
-    <script src="js/scripts.js"></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='js/main.js'></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>

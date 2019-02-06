@@ -16,7 +16,7 @@
 	//$question = $_POST['question'];
 	// 
 	// create email body and send it 
-	$to = '109-87@mail.ru'; // put your email
+	$to = 'nyanvodka@yandex.ru'; // put your email 109-87@mail.ru
 	$email_subject = "Вам отправлена форма с сайта Brandgraf!";
 	$email_body = "Заполнена форма. \n\n".
 	 "Данные отправителя:\n\nИмя: $name \n".
