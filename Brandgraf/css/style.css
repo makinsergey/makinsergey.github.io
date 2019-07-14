@@ -422,7 +422,7 @@ footer {
 	margin-top: 0px;
 }
 .steps {
-	height: 533px;
+	height: 633px;
 	background: #fff url(../img/comments-bg.png) center center no-repeat;
 	-webkit-background-size: cover;
     background-size: cover;
@@ -430,60 +430,68 @@ footer {
 }
 .steps-wrapper {
 	position: relative;
-	width: 850px;
 	margin: 0 auto;
 }
 .step {
-	width: 296px;
-	height: 164px;
+	/*width: 296px;
+	height: 164px;*/
+	width: 385px;
+	height: 190px;
 	position: absolute;
 }
 .hand-1 {
-	background: #fff url(../img/hand-1.jpg) center center no-repeat;
+	background: #d4d4d4 url(../img/hand-1.jpg) 0 center / contain no-repeat;
 	transform: rotate(-7deg);
 	top: 44px;
 	left: 10px;
 }
 .hand-2 {
-	background: #fff url(../img/hand-2.jpg) center center no-repeat;
+	background: #d4d4d4 url(../img/hand-2.jpg) 0 center / contain no-repeat;
 	top: 25px;
-    left: 308px;
+    left: 370px;
 }
 .hand-3 {
-	background: #fff url(../img/hand-3.jpg) center center no-repeat;
+	background: #d4d4d4 url(../img/hand-3.jpg) 0 center / contain no-repeat;
 	transform: rotate(12deg);
     top: 49px;
-    left: 605px;
+    left: 748px;
 }
 .hand-4 {
-	background: #fff url(../img/hand-4.jpg) center center no-repeat;
-	top: 184px;
+	background: #d4d4d4 url(../img/hand-4.jpg) 0 center / contain no-repeat;
+	top: 215px;
     left: 106px;
 }
 .hand-5 {
-	background: #fff url(../img/hand-5.jpg) center center no-repeat;
+	background: #d4d4d4 url(../img/hand-5.jpg) 0 center / contain no-repeat;
 	transform: rotate(-9deg);
-    top: 190px;
-    left: 406px;;
+    top: 212px;
+	left: 480px;
 }
 .hand-6 {
-	background: #fff url(../img/hand-6.jpg) center center no-repeat;
+	background: #d4d4d4 url(../img/hand-6.jpg) 0 center / contain no-repeat;
 	transform: rotate(5deg);
-    top: 346px;
+    top: 413px;
     left: 187px;
 }
-.hand-7 {
-	background: #fff url(../img/hand-7.jpg) center center no-repeat;
-	top: 344px;
-    left: 499px;
+.hand-6 .hand-text,
+.hand-7 .hand-text,
+.hand-4 .hand-text {
+	padding-top: 46px;
 }
-
+.hand-7 {
+	background: #d4d4d4 url(../img/hand-7.jpg) 0 center / contain no-repeat;
+	top: 370px;
+	left: 585px;
+}
 .hand-text {
-	font: 0.7em "AvantGardeCttRegular",sans-serif;
+	font: 1em "AvantGardeCttRegular",sans-serif;
     color: #6B6B6B;
     padding-top: 65px;
-    padding-left: 100px;
-    line-height: 1.4;
+    padding-left: 115px;
+    line-height: 1.1;
+}
+.steps_green {
+	color: #9DCD4C;
 }
 .consultation {
 	text-align: center;
