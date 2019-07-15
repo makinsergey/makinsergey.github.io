@@ -48,9 +48,7 @@ footer {
 	color: #fff;
 }
 .firstBg {
-	background: #fff url(../img/main-bg.png) no-repeat center 0;
-	 -webkit-background-size: cover;
-	background-size: cover; 
+	background: url(../img/main-bg.png) center 0 no-repeat;
 }
 .phone {
 	font: 1.25rem "AvantGardeCttBold",sans-serif;
@@ -592,6 +590,9 @@ footer {
 	text-transform: uppercase;
 	font: 1em "AvantGardeCttBold",sans-serif;
 }
+.socials-nav {
+	display: none;
+}
 /*Большие девайсы (большие десктопы, >= 1200px)*/
 @media (min-width: 1200px) {
 }
@@ -682,19 +683,47 @@ footer {
 		width: 315px;
 		height: 80px;
 	}	
+	.socials-nav {
+		display: flex !important;
+		margin: 6vw auto;
+	}
+	.socials a {
+	    width: 30px;
+	    height: 30px;
+	    margin-right: 10px;
+	}
+	.socials a:nth-child(1) {
+	    background: rgba(0,0,0,0) url(../img/socials.png) -2px center / cover no-repeat;
+	}
+	.socials a:nth-child(2) {
+	    background: rgba(0,0,0,0) url(../img/socials.png) -38px 0 / cover no-repeat;
+	}
+	.socials a:nth-child(3) {
+	    background: rgba(0,0,0,0) url(../img/socials.png) -77px 0 /cover no-repeat;
+	}
+	.contacts {
+	    background: url(../img/22.png) center 0 /500% 100% no-repeat;
+	}
 }
 
 /*Экстрамалые девайсы («портретные телефоны», < 576px)*/
 @media (max-width: 575.98px) {
 	.logo {
-	    height: 2.8rem;
-	    width: 11.5rem;
+	    height: 1.8rem;
+	    width: 9.5rem;
+	    padding-left: 0;
 	}
 	.phone {
-	    font-size: 1rem;
+	    font-size: .9rem;
 	}
 	.services-wrapper {
 	    height: auto;
+	}
+	.main-btn {
+	    width: 8.125rem;
+	}
+	.socials {
+		display: none !important;
 	}
 	.arrow {
 	    height: 21px;
@@ -747,6 +776,27 @@ footer {
 	.form-phone, 
 	.form-email {
 	    width: 100%;
+	}
+	.socials-nav {
+		display: flex !important;
+		margin: 6vw auto;
+	}
+	.socials a:nth-child(1) {
+	    background: rgba(0,0,0,0) url(../img/socials.png) -2px center / cover no-repeat;
+	}
+	.socials a:nth-child(2) {
+	    background: rgba(0,0,0,0) url(../img/socials.png) -38px 0 / cover no-repeat;
+	}
+	.socials a:nth-child(3) {
+	    background: rgba(0,0,0,0) url(../img/socials.png) -77px 0 /cover no-repeat;
+	}
+	.socials a {
+	    width: 30px;
+	    height: 30px;
+	    margin-right: 10px;
+	}
+	.contacts {
+	    background: url(../img/22.png) center 0 /500% 100% no-repeat;
 	}
 }
 
