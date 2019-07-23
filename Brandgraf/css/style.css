@@ -444,7 +444,7 @@ footer {
 	left: 10px;
 }
 .hand-2 {
-	background: #d4d4d4 url(../img/hand-2.jpg) 0 center / contain no-repeat;
+	background: #d7d7d7 url(../img/hand-2.jpg) 0 center / contain no-repeat;
 	top: 25px;
     left: 370px;
 }
@@ -455,20 +455,20 @@ footer {
     left: 748px;
 }
 .hand-4 {
-	background: #d4d4d4 url(../img/hand-4.jpg) 0 center / contain no-repeat;
-	top: 215px;
-    left: 106px;
+	background: #d7d7d7 url(../img/hand-4.jpg) 0 center / contain no-repeat;
+	top: 212px;
+    left: 89px;
 }
 .hand-5 {
-	background: #d4d4d4 url(../img/hand-5.jpg) 0 center / contain no-repeat;
-	transform: rotate(-9deg);
-    top: 212px;
-	left: 480px;
+	background: #d7d7d7 url(../img/hand-5.jpg) 0 center / contain no-repeat;
+	transform: rotate(-7deg);
+    top: 211px;
+    left: 477px;
 }
 .hand-6 {
-	background: #d4d4d4 url(../img/hand-6.jpg) 0 center / contain no-repeat;
-	transform: rotate(5deg);
-    top: 413px;
+	background: #d7d7d7 url(../img/hand-6.jpg) 0 center / contain no-repeat;
+	transform: rotate(4deg);
+    top: 391px;
     left: 187px;
 }
 .hand-6 .hand-text,
@@ -477,9 +477,9 @@ footer {
 	padding-top: 46px;
 }
 .hand-7 {
-	background: #d4d4d4 url(../img/hand-7.jpg) 0 center / contain no-repeat;
+	background: #d7d7d7 url(../img/hand-7.jpg) 0 center / contain no-repeat;
 	top: 370px;
-	left: 585px;
+	left: 576px;
 }
 .hand-text {
 	font: 1em "AvantGardeCttRegular",sans-serif;
@@ -602,11 +602,82 @@ footer {
 	.design-around-columns {
 	    height: 590px;
 	}
-	
+	.step {
+	    width: 316px;
+    	height: 174px;
+	}
+	.hand-text {
+	    font: .8em "AvantGardeCttRegular",sans-serif;
+	}
+	.hand-1 {
+	    left: -15px;
+	}
+	.hand-2 {
+	    left: 292px;
+	}
+	.hand-3 {
+	    left: 608px;
+	}
+	.hand-4 {
+		top: 198px;
+	    left: 76px;
+	}
+	.hand-5 {
+		transform: rotate(-5deg);
+	    top: 196px;
+	    left: 397px;
+	}
+	.hand-6 {
+	    top: 360px;
+	    left: 155px;
+	}
+	.hand-7 {
+		top: 354px;
+	    left: 471px;
+	}
 }
 
 /*Средние девайсы («таблетки», >= 768px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+	.step {
+	    width: 324px;
+    	height: 183px;
+	}
+	.steps {
+	    height: 760px;
+	}
+	.hand-text {
+	    font: .8em "AvantGardeCttRegular",sans-serif;
+	}
+	.hand-1 {
+	    left: 30px;
+	}
+	.hand-2 {
+	    left: 350px;
+	}
+	.hand-3 {
+		transform: rotate(3deg);
+	    top: 198px;
+    	left: 66px;
+	}
+	.hand-4 {
+		transform: rotate(-5deg);
+	    top: 196px;
+    	left: 386px;
+	}
+	.hand-5 {
+		top: 397px;
+    	left: 54px;
+		transform: rotate(-5deg);
+	}
+	.hand-6 {
+	    top: 379px;
+    	left: 372px;
+	}
+	.hand-7 {
+		top: 555px;
+    	left: 240px;
+	}
 	.navbar-nav li a {
 		font-size: 0.636rem;
 	}
@@ -636,6 +707,46 @@ footer {
 
 /*Малые девайсы («ландшафтные», >= 575px)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+	
+	.step {
+	    width: 324px;
+    	height: 183px;
+	}
+	.steps {
+	    height: 760px;
+	}
+	.hand-text {
+	    font: .8em "AvantGardeCttRegular",sans-serif;
+	}
+	.hand-1 {
+	    left: 30px;
+	}
+	.hand-2 {
+	    left: 350px;
+	}
+	.hand-3 {
+		transform: rotate(3deg);
+	    top: 198px;
+    	left: 66px;
+	}
+	.hand-4 {
+		transform: rotate(-5deg);
+	    top: 196px;
+    	left: 386px;
+	}
+	.hand-5 {
+		top: 397px;
+    	left: 54px;
+		transform: rotate(-5deg);
+	}
+	.hand-6 {
+	    top: 379px;
+    	left: 372px;
+	}
+	.hand-7 {
+		top: 555px;
+    	left: 240px;
+	}
 	.logo {
 	    height: 3.8rem;
     	width: 16.5rem;
