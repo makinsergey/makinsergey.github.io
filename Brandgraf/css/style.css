@@ -48,7 +48,14 @@ footer {
 	color: #fff;
 }
 .firstBg {
-	background: url(../img/main-bg.png) center 0 no-repeat;
+	background: url(../img/main-bg.png) center 0 / cover no-repeat;
+	height: 100vh;
+}
+.head {
+	height: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .phone {
 	font: 1.25rem "AvantGardeCttBold",sans-serif;
@@ -431,8 +438,6 @@ footer {
 	margin: 0 auto;
 }
 .step {
-	/*width: 296px;
-	height: 164px;*/
 	width: 385px;
 	height: 190px;
 	position: absolute;
@@ -446,13 +451,13 @@ footer {
 .hand-2 {
 	background: #d7d7d7 url(../img/hand-2.jpg) 0 center / contain no-repeat;
 	top: 25px;
-    left: 370px;
+    left: 384px;
 }
 .hand-3 {
 	background: #d4d4d4 url(../img/hand-3.jpg) 0 center / contain no-repeat;
 	transform: rotate(12deg);
     top: 49px;
-    left: 758px;
+    left: 767px;
 }
 .hand-4 {
 	background: #d7d7d7 url(../img/hand-4.jpg) 0 center / contain no-repeat;
@@ -628,12 +633,15 @@ footer {
 	    left: 397px;
 	}
 	.hand-6 {
-	    top: 360px;
+	    top: 366px;
 	    left: 155px;
 	}
 	.hand-7 {
 		top: 354px;
 	    left: 471px;
+	}
+	.hand-text {
+	    padding-top: 54px;
 	}
 }
 
