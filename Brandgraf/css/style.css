@@ -518,9 +518,7 @@ footer {
 	margin: 30px auto;
 }
 .contacts {
-	background: rgba(0,0,0,0) url(../img/22.png) no-repeat center 0;
-	-webkit-background-size: cover;
-	background-size: cover;
+	background: rgba(0,0,0,0) url(../img/22.png) center 0 / 100% 100% no-repeat;
     padding-bottom: 71px;
 }
 .contacts-title {
