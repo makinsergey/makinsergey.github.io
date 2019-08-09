@@ -48,7 +48,7 @@ footer {
 	color: #fff;
 }
 .firstBg {
-	background: url(../img/main-bg.png) center 0 / cover no-repeat;
+	background: url(../img/main-bg.jpg) center 0 no-repeat;
 	height: 100vh;
 }
 .head {
@@ -62,8 +62,8 @@ footer {
 	color: #000;
 }
 .logo {
-	height: 4.1875rem;
-	width: 21.875rem;
+	height: 5.1875rem;
+    width: 25.875rem;
 }
 .main-btn {
 	width: 9.125rem;
@@ -75,8 +75,8 @@ footer {
 	background-color: #A3C74B;
 }
 .img-about {
-	width: 8.8125rem;
-	height: 5.1875rem;
+	width: 10.8125rem;
+	height: 6.1875rem;
 }
 .socials a {
 	width: 43px;
@@ -105,10 +105,11 @@ footer {
 }
 .services-hover {
 	display: none;
+	width: 17vw;
 }
 .services-nonehover{
 	display: flex;
-	width: 15.3125rem;
+	width: 18vw;
 }
 .arrow-wrapper {
 	position: relative;
@@ -596,6 +597,12 @@ footer {
 .socials-nav {
 	display: none;
 }
+.carousel {
+	display: none;
+}
+.carousel-indicators {
+    bottom: -35px;
+}
 /*Большие девайсы (большие десктопы, >= 1200px)*/
 @media (min-width: 1200px) {
 }
@@ -640,6 +647,13 @@ footer {
 	}
 	.hand-text {
 	    padding-top: 54px;
+	}
+	.services-nonehover,
+	.services-hover {
+	    width: 27vw;
+	}
+	.carousel {
+		display: none;
 	}
 }
 
@@ -707,6 +721,9 @@ footer {
 	.uv-icon, .souvenirs-icon, .design-icon {
 	    width: 9.875rem;
 	    height: 9.875rem;
+	}
+	.carousel {
+		display: none;
 	}
 }
 
@@ -821,6 +838,21 @@ footer {
 	.contacts {
 	    background: url(../img/22.png) center 0 /500% 100% no-repeat;
 	}
+	.step {
+	    position: static;
+	    margin: 0 auto; 
+	    transform: rotate(0deg);
+	}
+	.steps-wrapper {
+		display: none;
+	}
+	.carousel {
+		display: block;
+	}
+	.steps {
+	    height: auto;
+	    padding: 6vw 0;
+	}
 }
 
 /*Экстрамалые девайсы («портретные телефоны», < 576px)*/
@@ -835,6 +867,7 @@ footer {
 	}
 	.services-wrapper {
 	    height: auto;
+	    margin-top: 15px !important;
 	}
 	.main-btn {
 	    width: 8.125rem;
@@ -914,6 +947,44 @@ footer {
 	}
 	.contacts {
 	    background: url(../img/22.png) center 0 /500% 100% no-repeat;
+	}
+	.services-nonehover,
+	.services-hover {
+	    width: 70vw;
+	}
+	.firstBg {
+		background: url(../img/main-bg.jpg) center center / contain no-repeat;
+	    height: auto;
+	}
+	.steps-wrapper {
+	    display: none;
+	}
+	.step {
+	    width: 100%;
+	    height: 160px;
+	    margin: 0 auto;
+	    position: static;
+	    transform: rotate(0deg);
+	}
+	.carousel {
+		display: block;
+	}
+	.steps {
+	    height: auto;
+	    padding: 20vw 0;
+	}
+	.carousel-control-next, 
+	.carousel-control-prev {
+	    bottom: -12vw;
+	    top: inherit;
+	}
+	.carousel-indicators {
+	    bottom: -14vw;
+	}
+	.hand-text {
+		font: .75em "AvantGardeCttRegular",sans-serif;
+	    padding-top: 42px !important;
+	    padding-left: 95px !important;
 	}
 }
 
