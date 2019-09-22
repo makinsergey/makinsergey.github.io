@@ -55,15 +55,21 @@ footer {
 	height: 100%;
 	display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .phone {
 	font: 1.25rem "AvantGardeCttBold",sans-serif;
 	color: #000;
 }
+.arrow-content {
+	margin-top: auto;
+}
 .logo {
-	height: 5.1875rem;
+	/*height: 5.1875rem;*/
     width: 25.875rem;
+}
+.logo-content {
+	align-items: flex-start;
 }
 .main-btn {
 	width: 9.125rem;
