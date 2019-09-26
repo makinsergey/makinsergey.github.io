@@ -600,6 +600,10 @@ footer {
 	text-transform: uppercase;
 	font: 1em "AvantGardeCttBold",sans-serif;
 }
+.socials {
+	justify-content: flex-end;
+	margin-top: 1vw;
+}
 .socials-nav {
 	display: none;
 }
@@ -608,6 +612,9 @@ footer {
 }
 .carousel-indicators {
     bottom: -35px;
+}
+.img-banner {
+	margin-left: 4vw;
 }
 /*Большие девайсы (большие десктопы, >= 1200px)*/
 @media (min-width: 1200px) {
