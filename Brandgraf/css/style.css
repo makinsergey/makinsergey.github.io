@@ -66,10 +66,14 @@ footer {
 }
 .logo {
 	/*height: 5.1875rem;*/
-    width: 25.875rem;
+    width: 26.35rem;
 }
 .logo-content {
+	padding-top: 2.5vw;
 	align-items: flex-start;
+}
+.header-imgs-block {
+	padding-top: .5vw;
 }
 .main-btn {
 	width: 9.125rem;
@@ -115,7 +119,7 @@ footer {
 }
 .services-nonehover{
 	display: flex;
-	width: 18vw;
+	width: 19vw;
 }
 .arrow-wrapper {
 	position: relative;
@@ -614,7 +618,7 @@ footer {
     bottom: -35px;
 }
 .img-banner {
-	margin-left: 4vw;
+	margin-left: 7vw;
 }
 /*Большие девайсы (большие десктопы, >= 1200px)*/
 @media (min-width: 1200px) {
