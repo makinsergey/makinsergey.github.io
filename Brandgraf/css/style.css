@@ -113,13 +113,17 @@ footer {
 .services {
 	margin: 0 auto;
 }
+.services-item-wrap {
+	width: 19vw;
+	display: block;
+}
 .services-hover {
 	display: none;
-	width: 26vw;
+	width: 99%;
 }
 .services-nonehover{
 	display: flex;
-	width: 28vw;
+	width: 100%;
 }
 .arrow-wrapper {
 	position: relative;
