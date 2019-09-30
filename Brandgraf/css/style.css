@@ -136,6 +136,7 @@ footer {
     width: 19px;
     position: absolute;
     animation: jump 2s infinite;
+    margin-left: -9px;	
 }
 .arrow:hover {
     cursor: pointer;
@@ -903,6 +904,7 @@ footer {
 	.arrow {
 	    height: 21px;
 	    width: 16px;
+	    margin-left: -8px;
 	}
 	.souvenirs-icon-wrp {
 	    width: auto;
