@@ -899,7 +899,7 @@ footer {
 	    width: 8.125rem;
 	}
 	.socials {
-		display: none !important;
+		/*display: none !important;*/
 	}
 	.arrow {
 	    height: 21px;
@@ -943,11 +943,6 @@ footer {
 	}
 	.constructions-icon-wrp {
 	    padding-right: 0px;
-	}
-	.interior-icons,
-	.large-print-icons,
-	.block-icons {
-		display: none;
 	}
 	.form-name, 
 	.form-phone, 
@@ -1012,6 +1007,19 @@ footer {
 		font: .75em "AvantGardeCttRegular",sans-serif;
 	    padding-top: 42px !important;
 	    padding-left: 95px !important;
+	}
+	.main-icon-wrp p {
+	    font-size: 4vw;
+    	margin-top: 2vw;
+	}
+	.main-icon-wrp {
+	    height: 120px;
+	    width: 86px;
+	}
+	.block-icons {
+		padding: 0;
+	    display: flex;
+	    flex-wrap: wrap;
 	}
 }
 

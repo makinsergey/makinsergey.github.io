@@ -53,7 +53,7 @@ setTimeout(function() {
    $('#success').html("<div class='alert alert-danger'>");
              $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
               .append( "</button>");
-             $('#success > .alert-danger').append("<strong>Извините "+firstName+" кажется проблемы на сервере отправки писем...</strong> Вы не могли бы написать напрямую на адрес <a href='arina1611@mail.ru?Subject=Перезвоните мне'>arina1611@mail.ru</a> ? Приносим извинения за это неудобство!");
+             $('#success > .alert-danger').append("<strong>Извините "+firstName+" кажется проблемы на сервере отправки писем...</strong> Вы не могли бы написать напрямую на адрес <a href='info@brandgraf.ru?Subject=Перезвоните мне'>info@brandgraf.ru</a> ? Приносим извинения за это неудобство!");
           $('#success > .alert-danger').append('</div>');
   //clear all fields
   $('#contactForm2').trigger("reset");
