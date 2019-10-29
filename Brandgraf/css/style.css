@@ -960,6 +960,7 @@ footer {
 	    background: rgba(0,0,0,0) url(../img/socials.png) -38px 0 / cover no-repeat;
 	}
 	.socials a:nth-child(3) {
+		    margin: 0;
 	    background: rgba(0,0,0,0) url(../img/socials.png) -77px 0 /cover no-repeat;
 	}
 	.socials a {
@@ -1009,7 +1010,7 @@ footer {
 	    padding-left: 95px !important;
 	}
 	.main-icon-wrp p {
-	    font-size: 4vw;
+	    font-size: 3.5vw;
     	margin-top: 2vw;
 	}
 	.main-icon-wrp {
