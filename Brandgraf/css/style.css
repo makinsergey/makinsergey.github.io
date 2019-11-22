@@ -218,7 +218,7 @@ footer {
 .block-icons {
 	padding: 25px 30px 0 30px;
 }
-.bc {
+/*.bc {
 	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
 }
 .brochures {
@@ -256,6 +256,45 @@ footer {
 }
 .folders {
 	background: #fff url(../img/poly-icons.png) -1px -1258px no-repeat;
+}*/
+.bc {
+	background: #fff url(../img/icon-col-1.png) 0 0 no-repeat;
+}
+.brochures {
+	background: #fff url(../img/icon-col-2.png) 0 0 no-repeat;
+}
+.calendars {
+	background: #fff url(../img/icon-col-3.png) 0 0 no-repeat;
+}
+.booklets {
+	background: #fff url(../img/icon-col-11.png) 0 0 no-repeat;
+}
+.envelopes {
+	background: #fff url(../img/icon-col-4.png) 0 0 no-repeat;
+}
+.leaflets {
+	background: #fff url(../img/icon-col-5.png) 0 0 no-repeat;
+}
+.posters {
+	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+}
+.notebooks {
+	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+}
+.stickers {
+	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+}
+.invitations {
+	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+}
+.magazines {
+	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+}
+.packages {
+	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+}
+.folders {
+	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
 }
 .icon-wrp {
 	color: #5D5D5D;
