@@ -340,7 +340,7 @@ footer {
 	background: url(../img/content-bg.png) 108% -84px no-repeat,
 				url(../img/content-bg.png) -19px 28% no-repeat,
 				url(../img/content-bg.png) 100% 60% no-repeat,
-				url(../img/content-bg.png) 0% 91% no-repeat;				;
+				url(../img/content-bg.png) 0% 91% no-repeat;	
 }
 .large-print-icons {
 	margin-top: 25px;
@@ -354,13 +354,13 @@ footer {
 	margin: 0 auto;
 }
 .banners-and-stretchers {
-	background: #fff url(../img/print-icons.png) center 0 no-repeat;
+	background: #fff url(../img/icon-col-16.png) 0 0 / contain no-repeat;
 }
 .print-on-mesh {
-	background: #fff url(../img/print-icons.png) center -236px no-repeat;
+	background: #fff url(../img/icon-col-14.png) 0 0 / contain no-repeat;
 }
 .film-printing {
-	background: #fff url(../img/print-icons.png) center -472px no-repeat;
+	background: #fff url(../img/icon-col-15.png) 0 0 / contain no-repeat;
 }
 .interior-icon-wrp {
     text-transform: uppercase;
@@ -371,16 +371,16 @@ footer {
 	margin: 0 auto;
 }
 .interior-fp {
-	background: #fff url(../img/interior-print.png) center 0px no-repeat;
+	background: #fff url(../img/icon-col-20.png) 0 0 / contain no-repeat;
 }
 .interior-canvas {
-	background: #fff url(../img/interior-print.png) center -211px no-repeat;
+	background: #fff url(../img/icon-col-19.png) 0 0 / contain no-repeat;
 }
 .interior-photopaper {
-	background: #fff url(../img/interior-print.png) center -424px no-repeat;
+	background: #fff url(../img/icon-col-18.png) 0 0 / contain no-repeat;
 }
 .interior-plotter {
-	background: #fff url(../img/interior-print.png) center -636px no-repeat;
+	background: #fff url(../img/icon-col-17.png) 0 0 / contain no-repeat;
 }
 .constructions-icon-wrp {
     padding-right: 40px;
@@ -396,24 +396,24 @@ footer {
     margin-top: 15px;
 }
 .rollup {
-	background: #fff url(../img/construct-icons.png) center 0 no-repeat;
+	background: #fff url(../img/icon-col-21.png) 0 0 / contain no-repeat;
 }
 .press-wall {
-	background: #fff url(../img/construct-icons.png) center -188px no-repeat;
+	background: #fff url(../img/icon-col-22.png) 0 0 / contain no-repeat;
 }
 .yxl {
-	background: #fff url(../img/construct-icons.png) center -382px no-repeat;
+	background: #fff url(../img/icon-col-23.png) 0 0 / contain no-repeat;
 }
 .popup {
-	background: #fff url(../img/construct-icons.png) center -567px no-repeat;
+	background: #fff url(../img/icon-col-24.png) 0 0 / contain no-repeat;
 }
 .advertising-standers {
-	background: #fff url(../img/construct-icons.png) center -755px no-repeat;
+	background: #fff url(../img/icon-col-25.png) 0 0 / contain no-repeat;
 }
 .uv-print {
 	background: url(../img/content-bg.png) 108% -40px no-repeat,
 				url(../img/content-bg.png) -19px 46% no-repeat,
-				url(../img/content-bg.png) 106% 97% no-repeat;				;
+				url(../img/content-bg.png) 106% 97% no-repeat;
 }
 .uv-print-list {
 	list-style-type: none;
@@ -430,35 +430,35 @@ footer {
 	margin: 0 auto;
 }
 .list-materials {
-	background: #fff url(../img/uv-suv-design.png) center 0 no-repeat;
+	background: #fff url(../img/icon-col-26.png) 0 0 / contain no-repeat;
 }
 .rolled-materials {
-	background: #fff url(../img/uv-suv-design.png) center -248px no-repeat;
+	background: #fff url(../img/icon-col-27.png) 0 0 / contain no-repeat;
 }
 .cutting {
-	background: #fff url(../img/uv-suv-design.png) center -496px no-repeat;
+	background: #fff url(../img/icon-col-28.png) 0 0 / contain no-repeat;
 }
 .souvenirs {
-	background: url(../img/content-bg.png) 108% -40px no-repeat;				;
+	background: url(../img/content-bg.png) 108% -40px no-repeat;
 }
 .souvenirs-icon-wrp {
     margin-top: 25px;
     width: 15.875rem;
 }
 .souvenirs-silk {
-	background: #fff url(../img/uv-suv-design.png) center -743px no-repeat;
+	background: #fff url(../img/icon-col-31.png) 0 0 / contain no-repeat;
 }
 .souvenirs-thermal {
-	background: #fff url(../img/uv-suv-design.png) center -992px no-repeat;
+	background: #fff url(../img/icon-col-30.png) 0 0 / contain no-repeat;
 }
 .souvenirs-pad {
-	background: #fff url(../img/uv-suv-design.png) center -1240px no-repeat;
+	background: #fff url(../img/icon-col-29.png) 0 0 / contain no-repeat;
 }
 .design-around-columns {
     height: 500px;
 }
 .design {
-	background: url(../img/content-bg.png) 103% -40px no-repeat;				;
+	background: url(../img/content-bg.png) 103% -40px no-repeat;			
 }
 .design-icon-wrp {
 	padding: 0;
@@ -470,13 +470,13 @@ footer {
 	padding-right: 32px;
 }
 .design-style {
-	background: #fff url(../img/uv-suv-design.png) center -1489px no-repeat;
+	background: #fff url(../img/icon-col-34.png) 0 0 / contain no-repeat;
 }
 .design-polygraphy {
-	background: #fff url(../img/uv-suv-design.png) center -1737px no-repeat;
+	background: #fff url(../img/icon-col-33.png) 0 0 / contain no-repeat;
 }
 .design-logo {
-	background: #fff url(../img/uv-suv-design.png) center -1984px no-repeat;
+	background: #fff url(../img/icon-col-32.png) 0 0 / contain no-repeat;
 }
 .design-btn {
 	margin-top: 0px;
