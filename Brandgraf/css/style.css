@@ -258,43 +258,43 @@ footer {
 	background: #fff url(../img/poly-icons.png) -1px -1258px no-repeat;
 }*/
 .bc {
-	background: #fff url(../img/icon-col-1.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-1.png) 0 0 / contain no-repeat;
 }
 .brochures {
-	background: #fff url(../img/icon-col-2.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-2.png) 0 0 / contain no-repeat;
 }
 .calendars {
-	background: #fff url(../img/icon-col-3.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-3.png) 0 0 / contain no-repeat;
 }
 .booklets {
-	background: #fff url(../img/icon-col-11.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-11.png) 0 0 / contain no-repeat;
 }
 .envelopes {
-	background: #fff url(../img/icon-col-4.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-4.png) 0 0 / contain no-repeat;
 }
 .leaflets {
-	background: #fff url(../img/icon-col-5.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-5.png) 0 0 / contain no-repeat;
 }
 .posters {
-	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-6.png) 0 0 / contain no-repeat;
 }
 .notebooks {
-	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-7.png) 0 0 / contain no-repeat;
 }
 .stickers {
-	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-8.png) 0 0 / contain no-repeat;
 }
 .invitations {
 	background: #fff url(../img/Asset2.png) 0 0 / contain no-repeat;
 }
 .magazines {
-	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-10.png) 0 0 / contain no-repeat;
 }
 .packages {
-	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-13.png) 0 0 / contain no-repeat;
 }
 .folders {
-	background: #fff url(../img/poly-icons.png) 0 0 no-repeat;
+	background: #fff url(../img/icon-col-12.png) 0 0 / contain no-repeat;
 }
 .icon-wrp {
 	color: #5D5D5D;
